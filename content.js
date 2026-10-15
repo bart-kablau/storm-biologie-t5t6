@@ -266,18 +266,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat is een <b>biotoop</b>?",
             "o": [
-              "alle planten en dieren in één gebied",
+              "alle planten en dieren samen in één gebied",
               "alle abiotische factoren samen in één gebied",
-              "het holletje waar één dier woont",
-              "alle ecosystemen op aarde samen"
+              "het holletje of het nest waar één dier in woont",
+              "alle ecosystemen op de hele aarde samen"
             ],
             "a": "alle abiotische factoren samen in één gebied",
             "w": "De biotoop is alle abiotische (levenloze) factoren samen in één bepaald gebied.",
             "meer": "Wind, schaduw, zon, temperatuur, regen, bodem, water: dat is de biotoop.",
             "fout": {
-              "alle planten en dieren in één gebied": "Dat is de levensgemeenschap. Planten en dieren leven; de biotoop is juist het levenloze.",
-              "het holletje waar één dier woont": "Zo gebruiken mensen het woord soms in gewone taal, maar in deze les is de biotoop al het levenloze in een gebied.",
-              "alle ecosystemen op aarde samen": "Dat is de biosfeer."
+              "alle planten en dieren samen in één gebied": "Dat is de levensgemeenschap. Planten en dieren leven; de biotoop is juist het levenloze.",
+              "het holletje of het nest waar één dier in woont": "Zo gebruiken mensen het woord soms in gewone taal, maar in deze les is de biotoop al het levenloze in een gebied.",
+              "alle ecosystemen op de hele aarde samen": "Dat is de biosfeer."
             }
           },
           {
@@ -391,18 +391,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Welke van deze hoort bij de <b>biotoop</b> van een duinpan?",
             "o": [
-              "de konijnen",
+              "de konijnen in hun holen",
               "de hoeveelheid wind",
-              "het helmgras",
-              "een dode meeuw"
+              "het helmgras op de helling",
+              "een dode meeuw in het zand"
             ],
             "a": "de hoeveelheid wind",
             "w": "Wind is levenloos, dus een abiotische factor. De biotoop is alle abiotische factoren samen.",
             "meer": "Biotoop = het levenloze decor. Alles wat leeft of leefde, hoort er niet bij.",
             "fout": {
-              "de konijnen": "Konijnen leven: ze horen bij de levensgemeenschap, niet bij de biotoop.",
-              "het helmgras": "Helmgras is een plant, dus levend. Dat is levensgemeenschap.",
-              "een dode meeuw": "Dood maar wel van een organisme: biotisch. De biotoop is alleen het levenloze."
+              "de konijnen in hun holen": "Konijnen leven: ze horen bij de levensgemeenschap, niet bij de biotoop.",
+              "het helmgras op de helling": "Helmgras is een plant, dus levend. Dat is levensgemeenschap.",
+              "een dode meeuw in het zand": "Dood maar wel van een organisme: biotisch. De biotoop is alleen het levenloze."
             }
           },
           {
@@ -451,18 +451,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Welke is <b>GEEN</b> abiotische factor in een bos?",
             "o": [
-              "de hoeveelheid schaduw",
+              "de hoeveelheid schaduw onder de bomen",
               "de temperatuur",
               "de schimmels op een boomstronk",
-              "hoe nat de bodem is"
+              "hoe nat de bodem na regen is"
             ],
             "a": "de schimmels op een boomstronk",
             "w": "Schimmels zijn levende organismen, dus biotisch. De rest is levenloos.",
             "meer": "Bij 'GEEN' zoek je de vreemde eend: hier het enige dat leeft.",
             "fout": {
-              "de hoeveelheid schaduw": "Schaduw is licht dat ontbreekt: levenloos, dus wél abiotisch.",
+              "de hoeveelheid schaduw onder de bomen": "Schaduw is licht dat ontbreekt: levenloos, dus wél abiotisch.",
               "de temperatuur": "Temperatuur is levenloos: wél abiotisch.",
-              "hoe nat de bodem is": "Water en bodem zijn levenloos: wél abiotisch."
+              "hoe nat de bodem na regen is": "Water en bodem zijn levenloos: wél abiotisch."
             }
           },
           {
@@ -624,17 +624,17 @@ window.LEERSTOF = [
             "q": "Storm zegt: 'Een levensgemeenschap is gewoon een grote populatie.' Wat is er fout?",
             "o": [
               "een levensgemeenschap bevat ook de bodem en het weer",
-              "een levensgemeenschap bestaat uit meerdere soorten, een populatie uit één soort",
+              "een populatie is één soort, een levensgemeenschap meerdere",
               "een populatie is juist groter dan een levensgemeenschap",
-              "er is niks fout"
+              "er is niks fout, het is alleen een groter aantal dieren"
             ],
-            "a": "een levensgemeenschap bestaat uit meerdere soorten, een populatie uit één soort",
+            "a": "een populatie is één soort, een levensgemeenschap meerdere",
             "w": "Het verschil zit niet in de grootte maar in het aantal soorten.",
             "meer": "Duizend mieren van één soort zijn nog steeds een populatie. Drie mieren, een mus en een paardenbloem zijn al meerdere soorten.",
             "fout": {
               "een levensgemeenschap bevat ook de bodem en het weer": "Bodem en weer zijn levenloos: dat is de biotoop. Een levensgemeenschap is alleen het levende.",
               "een populatie is juist groter dan een levensgemeenschap": "Een levensgemeenschap bestaat uit meerdere populaties, dus de populatie is een deel ervan.",
-              "er is niks fout": "Toch wel: 'groot' is het verschil niet. Het gaat om één soort tegen meerdere soorten."
+              "er is niks fout, het is alleen een groter aantal dieren": "Toch wel: 'groot' is het verschil niet. Het gaat om één soort tegen meerdere soorten."
             }
           },
           {
@@ -659,26 +659,26 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "In een aquarium zitten guppen, waterplanten, slakken, water, grind en een lamp. Wat hoort bij de <b>biotoop</b>?",
             "o": [
-              "de guppen en de slakken",
+              "de guppen en de slakken die erin zwemmen",
               "het water, het grind en het licht van de lamp",
-              "de waterplanten",
-              "alles, want het is één bak"
+              "de waterplanten die op het grind groeien",
+              "alles, want het is samen één bak"
             ],
             "a": "het water, het grind en het licht van de lamp",
             "w": "De biotoop is alles wat levenloos is: water, grind, licht.",
             "meer": "Het hele aquarium met alles erin is een (klein) ecosysteem.",
             "fout": {
-              "de guppen en de slakken": "Die leven: ze horen bij de levensgemeenschap.",
-              "de waterplanten": "Planten leven ook. Levensgemeenschap, geen biotoop.",
-              "alles, want het is één bak": "Alles samen is het ecosysteem. De biotoop is alleen het levenloze deel."
+              "de guppen en de slakken die erin zwemmen": "Die leven: ze horen bij de levensgemeenschap.",
+              "de waterplanten die op het grind groeien": "Planten leven ook. Levensgemeenschap, geen biotoop.",
+              "alles, want het is samen één bak": "Alles samen is het ecosysteem. De biotoop is alleen het levenloze deel."
             }
           },
           {
             "t": "mc",
             "q": "Een bioloog vergelijkt het ecosysteem 'heide' met het ecosysteem 'bos'. Wat moet hij in elk geval bekijken?",
             "o": [
-              "alleen de planten en dieren",
-              "alleen bodem, licht en regen",
+              "alleen de planten en dieren in het gebied",
+              "alleen de bodem, het licht en de regen",
               "de levensgemeenschap én de biotoop",
               "alleen de grootste dieren"
             ],
@@ -686,8 +686,8 @@ window.LEERSTOF = [
             "w": "Een ecosysteem is levensgemeenschap + biotoop. Wie ecosystemen vergelijkt, kijkt naar allebei.",
             "meer": "In een ecosysteem kijk je naar alle factoren: biotisch en abiotisch.",
             "fout": {
-              "alleen de planten en dieren": "Dan vergelijk je alleen de levensgemeenschappen. Het levenloze deel ontbreekt.",
-              "alleen bodem, licht en regen": "Dan vergelijk je alleen de biotopen. De organismen ontbreken.",
+              "alleen de planten en dieren in het gebied": "Dan vergelijk je alleen de levensgemeenschappen. Het levenloze deel ontbreekt.",
+              "alleen de bodem, het licht en de regen": "Dan vergelijk je alleen de biotopen. De organismen ontbreken.",
               "alleen de grootste dieren": "Ook kleine organismen, planten en het levenloze tellen mee."
             }
           },
@@ -845,18 +845,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Waarom heten planten <b>producenten</b>?",
             "o": [
-              "ze worden als eerste opgegeten",
+              "ze worden als eerste opgegeten door alle andere organismen",
               "ze maken met fotosynthese voedsel voor alle andere organismen",
-              "ze zijn het kleinst in de keten",
-              "ze produceren afval voor de reducenten"
+              "ze zijn het kleinst en staan daarom vooraan in de keten",
+              "ze produceren afval voor de reducenten en afvaleters in de bodem"
             ],
             "a": "ze maken met fotosynthese voedsel voor alle andere organismen",
             "w": "Produceren = maken. Planten maken energierijke stoffen door fotosynthese.",
             "meer": "Dieren kunnen dat niet: zij moeten eten. Daarom begint elke keten met een plant.",
             "fout": {
-              "ze worden als eerste opgegeten": "Ze staan wel vooraan, maar de naam gaat over maken, niet over opgegeten worden.",
-              "ze zijn het kleinst in de keten": "Een eik is niet klein. Het gaat om voedsel maken, niet om grootte.",
-              "ze produceren afval voor de reducenten": "Het gaat om voedsel (energierijke stoffen) maken, niet om afval."
+              "ze worden als eerste opgegeten door alle andere organismen": "Ze staan wel vooraan, maar de naam gaat over maken, niet over opgegeten worden.",
+              "ze zijn het kleinst en staan daarom vooraan in de keten": "Een eik is niet klein. Het gaat om voedsel maken, niet om grootte.",
+              "ze produceren afval voor de reducenten en afvaleters in de bodem": "Het gaat om voedsel (energierijke stoffen) maken, niet om afval."
             }
           },
           {
@@ -1012,32 +1012,32 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Kan een vos die alleen vlees eet een consument van de <b>1e orde</b> zijn?",
             "o": [
-              "ja, als hij het eerste dier in de keten is",
-              "nee, want de 1e orde eet planten en een vleeseter eet geen planten",
-              "ja, want hij is groter dan een konijn"
+              "ja, als hij het eerste dier is dat in de keten staat",
+              "nee, de 1e orde eet planten en hij eet alleen vlees",
+              "ja, want hij is groter en sterker dan een konijn"
             ],
-            "a": "nee, want de 1e orde eet planten en een vleeseter eet geen planten",
+            "a": "nee, de 1e orde eet planten en hij eet alleen vlees",
             "w": "Consumenten van de 1e orde eten planten. Een vleeseter eet dieren, dus is altijd 2e orde of hoger.",
             "meer": "1e orde = planteneters of alleseters, nooit vleeseters.",
             "fout": {
-              "ja, als hij het eerste dier in de keten is": "Het eerste dier in een keten eet de plant. Een vleeseter eet geen planten, dus kan daar nooit staan.",
-              "ja, want hij is groter dan een konijn": "Grootte doet niet mee. Wat hij eet, bepaalt de orde."
+              "ja, als hij het eerste dier is dat in de keten staat": "Het eerste dier in een keten eet de plant. Een vleeseter eet geen planten, dus kan daar nooit staan.",
+              "ja, want hij is groter en sterker dan een konijn": "Grootte doet niet mee. Wat hij eet, bepaalt de orde."
             }
           },
           {
             "t": "mc",
             "q": "Een olifant eet alleen planten. Een koolmees eet rupsen, en die rupsen eten bladeren. Wie staat <b>hoger</b> in zijn voedselketen?",
             "o": [
-              "de olifant, want die is veel groter",
-              "ze staan even hoog",
+              "de olifant, want die is veel groter en sterker",
+              "ze staan even hoog, want ze zijn allebei consument",
               "de koolmees, die is consument van de 2e orde"
             ],
             "a": "de koolmees, die is consument van de 2e orde",
             "w": "Blad → rups → koolmees: de mees is 2e orde. Gras → olifant: de olifant is 1e orde.",
             "meer": "Bekende denkfout: het grootste dier staat bovenaan. Niet waar, het gaat om wie wie eet.",
             "fout": {
-              "de olifant, want die is veel groter": "Grootte zegt niks. De olifant eet planten, dus hij is maar 1e orde.",
-              "ze staan even hoog": "De olifant eet planten (1e orde), de mees eet dieren die planten eten (2e orde)."
+              "de olifant, want die is veel groter en sterker": "Grootte zegt niks. De olifant eet planten, dus hij is maar 1e orde.",
+              "ze staan even hoog, want ze zijn allebei consument": "De olifant eet planten (1e orde), de mees eet dieren die planten eten (2e orde)."
             }
           },
           {
@@ -1052,15 +1052,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Een merel eet bessen, rupsen én slakken. Waarom teken je dan liever een voedselweb dan één voedselketen?",
             "o": [
-              "omdat een voedselweb alleen voor vogels is",
-              "omdat één soort meerdere soorten eet en de ketens dus door elkaar lopen",
+              "omdat een voedselweb alleen voor vogels bedoeld is",
+              "omdat de merel in meerdere ketens tegelijk zit",
               "omdat in een voedselketen geen planten mogen staan"
             ],
-            "a": "omdat één soort meerdere soorten eet en de ketens dus door elkaar lopen",
+            "a": "omdat de merel in meerdere ketens tegelijk zit",
             "w": "Een voedselweb laat alle voedselrelaties zien, ook als een soort meerdere dingen eet.",
             "meer": "Bessen → merel, rups → merel, slak → merel: drie ketens die samenkomen bij de merel.",
             "fout": {
-              "omdat een voedselweb alleen voor vogels is": "Een voedselweb is voor het hele ecosysteem, met alle soorten.",
+              "omdat een voedselweb alleen voor vogels bedoeld is": "Een voedselweb is voor het hele ecosysteem, met alle soorten.",
               "omdat in een voedselketen geen planten mogen staan": "Een voedselketen begint juist áltijd met een plant."
             }
           },
@@ -1154,16 +1154,16 @@ window.LEERSTOF = [
             "o": [
               "niets, zo mag het ook",
               "de alg mag niet in de keten, want die is geen dier",
-              "de pijlen staan verkeerd om: ze moeten naar wie eet wijzen",
-              "de snoek moet in het midden staan"
+              "de pijlen moeten naar wie eet wijzen",
+              "de snoek moet in het midden staan, niet vooraan"
             ],
-            "a": "de pijlen staan verkeerd om: ze moeten naar wie eet wijzen",
+            "a": "de pijlen moeten naar wie eet wijzen",
             "w": "Zo staat er dat de snoek opgegeten wordt door de baars. De pijl wijst naar wie eet: alg → watervlo → baars → snoek.",
             "meer": "Dit is de bekendste fout bij voedselketens. Lees de pijl als 'gaat naar'.",
             "fout": {
               "niets, zo mag het ook": "Nee, de richting van de pijl betekent iets: het voedsel gaat naar wie eet. Omdraaien maakt het fout.",
               "de alg mag niet in de keten, want die is geen dier": "De alg is juist nodig: een keten begint altijd met een plant (producent).",
-              "de snoek moet in het midden staan": "De snoek eet de baars, dus hij staat aan het eind. Het probleem zit in de pijlen."
+              "de snoek moet in het midden staan, niet vooraan": "De snoek eet de baars, dus hij staat aan het eind. Het probleem zit in de pijlen."
             }
           },
           {
@@ -1206,18 +1206,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat is het verschil tussen een <b>schakel</b> en een <b>orde</b>?",
             "o": [
-              "er is geen verschil",
-              "bij ordes tel je de plant mee, bij schakels niet",
-              "schakels zijn voor planten, ordes voor dieren",
+              "er is geen verschil, het zijn twee woorden voor hetzelfde",
+              "bij ordes tel je de plant mee, bij schakels alleen de consumenten",
+              "schakels zijn alleen de planten, ordes alleen de dieren",
               "bij schakels tel je de plant mee, bij ordes alleen de consumenten"
             ],
             "a": "bij schakels tel je de plant mee, bij ordes alleen de consumenten",
             "w": "Elke voedselbron is een schakel, ook de plant. Ordes zijn er alleen voor consumenten.",
             "meer": "Daarom: orde = schakel min 1.",
             "fout": {
-              "er is geen verschil": "Er is wel verschil: de watervlo is schakel 2 maar 1e orde.",
-              "bij ordes tel je de plant mee, bij schakels niet": "Precies andersom.",
-              "schakels zijn voor planten, ordes voor dieren": "Dieren zijn ook schakels. Elke voedselbron in de keten is een schakel."
+              "er is geen verschil, het zijn twee woorden voor hetzelfde": "Er is wel verschil: de watervlo is schakel 2 maar 1e orde.",
+              "bij ordes tel je de plant mee, bij schakels alleen de consumenten": "Precies andersom.",
+              "schakels zijn alleen de planten, ordes alleen de dieren": "Dieren zijn ook schakels. Elke voedselbron in de keten is een schakel."
             }
           },
           {
@@ -1258,18 +1258,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "In alg → watervlo → baars → snoek verdwijnen bijna alle watervlooien. Wat gebeurt er waarschijnlijk met de baarzen?",
             "o": [
-              "niets, baarzen eten geen algen",
-              "ze krijgen minder voedsel, dus het gaat slechter met de baarzen",
-              "ze krijgen juist meer voedsel",
-              "alleen de algen merken het"
+              "niets, want baarzen eten zelf geen algen",
+              "het gaat slechter: ze krijgen minder voedsel",
+              "het gaat beter: ze krijgen juist meer voedsel",
+              "niets, alleen de algen merken er iets van"
             ],
-            "a": "ze krijgen minder voedsel, dus het gaat slechter met de baarzen",
+            "a": "het gaat slechter: ze krijgen minder voedsel",
             "w": "De watervlo is de voedselbron van de baars. Valt die weg, dan heeft de baars minder te eten.",
             "meer": "En daarna merkt de snoek het ook: er zijn minder baarzen te eten.",
             "fout": {
-              "niets, baarzen eten geen algen": "Klopt dat ze geen algen eten, maar ze eten wél watervlooien. Die verdwijnen.",
-              "ze krijgen juist meer voedsel": "Hun voedsel (de watervlooien) verdwijnt. Dat is minder, niet meer.",
-              "alleen de algen merken het": "De algen merken het (minder eters), maar de baars verliest zijn voedsel. Alle schakels hangen samen."
+              "niets, want baarzen eten zelf geen algen": "Klopt dat ze geen algen eten, maar ze eten wél watervlooien. Die verdwijnen.",
+              "het gaat beter: ze krijgen juist meer voedsel": "Hun voedsel (de watervlooien) verdwijnt. Dat is minder, niet meer.",
+              "niets, alleen de algen merken er iets van": "De algen merken het (minder eters), maar de baars verliest zijn voedsel. Alle schakels hangen samen."
             }
           },
           {
@@ -1361,18 +1361,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "In welke eenheid geef je biomassa op?",
             "o": [
-              "in liters",
-              "in graden",
+              "in liters of milliliters",
+              "in graden Celsius",
               "in grammen of kilogrammen",
-              "in aantallen dieren"
+              "in aantallen dieren of planten"
             ],
             "a": "in grammen of kilogrammen",
             "w": "Biomassa is een hoeveelheid stof, dus je weegt het: grammen of kilogrammen.",
             "meer": "Het is net als massa een gewicht, maar alleen van het energierijke deel.",
             "fout": {
-              "in liters": "Liters is voor een volume, zoals water. Biomassa geef je op in gewicht.",
-              "in graden": "Graden is voor temperatuur.",
-              "in aantallen dieren": "Dat is hoeveel dieren er zijn, niet hoeveel energierijke stof ze bevatten."
+              "in liters of milliliters": "Liters is voor een volume, zoals water. Biomassa geef je op in gewicht.",
+              "in graden Celsius": "Graden is voor temperatuur.",
+              "in aantallen dieren of planten": "Dat is hoeveel dieren er zijn, niet hoeveel energierijke stof ze bevatten."
             }
           },
           {
@@ -1419,18 +1419,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat is <b>accumulatie</b>?",
             "o": [
-              "het verdwijnen van gif in planten",
-              "het verdunnen van gif in water",
+              "het verdwijnen van (giftige) stoffen in planten aan het begin van een voedselketen",
+              "het verdunnen van (giftige) stoffen in het water rond dieren in een voedselketen",
               "de ophoping van (giftige) stoffen in dieren aan het einde van een voedselketen",
-              "het maken van gif door planten"
+              "het maken van (giftige) stoffen door planten aan het begin van een voedselketen"
             ],
             "a": "de ophoping van (giftige) stoffen in dieren aan het einde van een voedselketen",
             "w": "Accumulatie = ophoping. Het gif stapelt op in de dieren aan het einde van de keten.",
             "meer": "Accu-mul-atie: denk aan een accu die vol loopt.",
             "fout": {
-              "het verdwijnen van gif in planten": "Planten raken bepaalde giftige stoffen juist níet kwijt.",
-              "het verdunnen van gif in water": "Het tegendeel: het gif wordt juist geconcentreerd in dieren.",
-              "het maken van gif door planten": "Het gaat niet over gif maken, maar over gif dat zich ophoopt."
+              "het verdwijnen van (giftige) stoffen in planten aan het begin van een voedselketen": "Planten raken bepaalde giftige stoffen juist níet kwijt.",
+              "het verdunnen van (giftige) stoffen in het water rond dieren in een voedselketen": "Het tegendeel: het gif wordt juist geconcentreerd in dieren.",
+              "het maken van (giftige) stoffen door planten aan het begin van een voedselketen": "Het gaat niet over gif maken, maar over gif dat zich ophoopt."
             }
           },
           {
@@ -1463,16 +1463,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat doen planten met bepaalde giftige stoffen die ze opnemen?",
             "o": [
-              "ze raken ze niet kwijt, dus het gif blijft in de plant",
-              "ze ademen het gif meteen weer uit",
-              "ze maken er nuttige stoffen van"
+              "ze raken ze niet kwijt: het gif blijft erin",
+              "ze ademen het gif via hun bladeren meteen weer uit",
+              "ze maken er met fotosynthese nuttige stoffen van"
             ],
-            "a": "ze raken ze niet kwijt, dus het gif blijft in de plant",
+            "a": "ze raken ze niet kwijt: het gif blijft erin",
             "w": "Planten raken bepaalde giftige stoffen niet kwijt. Zo komen die stoffen bij de planteneter terecht.",
             "meer": "Daar begint de ophoping in de keten.",
             "fout": {
-              "ze ademen het gif meteen weer uit": "Dan zou het gif niet in de keten terechtkomen. Planten raken het juist niet kwijt.",
-              "ze maken er nuttige stoffen van": "Nuttige stoffen maken uit resten is het werk van reducenten. Het gif blijft in de plant."
+              "ze ademen het gif via hun bladeren meteen weer uit": "Dan zou het gif niet in de keten terechtkomen. Planten raken het juist niet kwijt.",
+              "ze maken er met fotosynthese nuttige stoffen van": "Met fotosynthese maken planten glucose, maar het gif raken ze daarmee niet kwijt: het blijft in de plant."
             }
           }
         ]
@@ -1519,18 +1519,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Waarom krijgt de vos zoveel gif binnen?",
             "o": [
-              "hij drinkt het gif direct uit de sloot",
-              "hij eet veel konijnen en raakt het gif van al die konijnen niet kwijt",
-              "het gif wordt in elke schakel afgebroken",
-              "vossen maken zelf gif"
+              "hij drinkt het gif direct uit de sloot bij het gras",
+              "hij eet veel konijnen en raakt hun gif niet kwijt",
+              "het gif wordt in elke schakel een beetje afgebroken",
+              "vossen maken zelf gif aan in hun lever"
             ],
-            "a": "hij eet veel konijnen en raakt het gif van al die konijnen niet kwijt",
+            "a": "hij eet veel konijnen en raakt hun gif niet kwijt",
             "w": "Wordt de planteneter gegeten, dan krijgt dat dier het gif weer binnen. Zo stapelt het op.",
             "meer": "Twee dingen samen: veel prooien eten én het gif niet kwijtraken.",
             "fout": {
-              "hij drinkt het gif direct uit de sloot": "Het gif komt via de voedselketen binnen, niet via drinken.",
-              "het gif wordt in elke schakel afgebroken": "Dan zou er niets ophopen. Het gif blijft juist zitten.",
-              "vossen maken zelf gif": "Vossen maken geen gif. Het komt van het gespoten gras."
+              "hij drinkt het gif direct uit de sloot bij het gras": "Het gif komt via de voedselketen binnen, niet via drinken.",
+              "het gif wordt in elke schakel een beetje afgebroken": "Als het gif in elke schakel afgebroken werd, zou er niets ophopen. Het blijft juist zitten.",
+              "vossen maken zelf gif aan in hun lever": "Vossen maken geen gif. Het komt van het gespoten gras."
             }
           },
           {
@@ -1577,18 +1577,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "In een meer zit een beetje gif in het water. Waarom is dat gevaarlijker voor de visarend (eet vissen) dan voor de watervlooien?",
             "o": [
-              "visarenden zijn zwakker dan watervlooien",
-              "de visarend staat aan het einde van de keten, daar hoopt het gif op",
-              "watervlooien kunnen niet vergiftigd worden",
-              "de visarend drinkt meer water"
+              "visarenden zijn zwakker en kunnen minder gif hebben",
+              "hij staat aan het eind van de keten: daar hoopt gif op",
+              "watervlooien kunnen helemaal niet vergiftigd worden",
+              "de visarend drinkt elke dag veel meer water dan een watervlo"
             ],
-            "a": "de visarend staat aan het einde van de keten, daar hoopt het gif op",
+            "a": "hij staat aan het eind van de keten: daar hoopt gif op",
             "w": "Accumulatie: aan het einde van de keten zit het meeste gif per dier.",
             "meer": "De visarend eet veel vissen, die elk veel kleinere diertjes aten.",
             "fout": {
-              "visarenden zijn zwakker dan watervlooien": "Het gaat niet om sterk of zwak, maar om hoeveel gif zich opstapelt.",
-              "watervlooien kunnen niet vergiftigd worden": "Ze krijgen ook gif binnen, alleen minder per dier dan de visarend.",
-              "de visarend drinkt meer water": "Het gif komt vooral via het voedsel binnen, door de voedselketen."
+              "visarenden zijn zwakker en kunnen minder gif hebben": "Het gaat niet om sterk of zwak, maar om hoeveel gif zich opstapelt.",
+              "watervlooien kunnen helemaal niet vergiftigd worden": "Ze krijgen ook gif binnen, alleen minder per dier dan de visarend.",
+              "de visarend drinkt elke dag veel meer water dan een watervlo": "Het gif komt vooral via het voedsel binnen, door de voedselketen."
             }
           },
           {
@@ -1596,33 +1596,33 @@ window.LEERSTOF = [
             "q": "Welke uitspraak klopt?",
             "o": [
               "alleen het laatste dier van de keten krijgt gif binnen",
-              "een planteneter krijgt gif binnen via de planten die hij eet",
-              "gif komt alleen via de lucht in dieren",
-              "planten breken alle gif meteen af"
+              "een planteneter krijgt gif binnen via zijn planten",
+              "gif komt bij dieren alleen binnen via de lucht",
+              "planten breken alle gif meteen af in hun bladeren"
             ],
-            "a": "een planteneter krijgt gif binnen via de planten die hij eet",
+            "a": "een planteneter krijgt gif binnen via zijn planten",
             "w": "Planten raken bepaalde giftige stoffen niet kwijt; via de planteneter komen ze in dieren terecht.",
             "meer": "Elke schakel krijgt gif, maar het laatste dier het meeste.",
             "fout": {
               "alleen het laatste dier van de keten krijgt gif binnen": "Iedere schakel krijgt gif binnen. Het laatste dier krijgt alleen het méeste.",
-              "gif komt alleen via de lucht in dieren": "Bij accumulatie gaat het gif juist via het voedsel van schakel naar schakel.",
-              "planten breken alle gif meteen af": "Planten raken bepaalde giftige stoffen juist niet kwijt."
+              "gif komt bij dieren alleen binnen via de lucht": "Bij accumulatie gaat het gif juist via het voedsel van schakel naar schakel.",
+              "planten breken alle gif meteen af in hun bladeren": "Planten raken bepaalde giftige stoffen juist niet kwijt."
             }
           },
           {
             "t": "mc",
             "q": "Een roofvis eet veel kleinere vissen. Waarom kan er in een roofvis meer gif zitten dan in een klein visje dat algen eet?",
             "o": [
-              "grote vissen zwemmen in vuiler water",
-              "kleine vissen maken het gif onschadelijk",
-              "de roofvis staat verder in de keten, dus er is meer gif opgehoopt"
+              "grote vissen zwemmen in vuiler en dieper water",
+              "kleine vissen maken het gif zelf onschadelijk",
+              "hij staat verder in de keten: daar hoopt gif op"
             ],
-            "a": "de roofvis staat verder in de keten, dus er is meer gif opgehoopt",
+            "a": "hij staat verder in de keten: daar hoopt gif op",
             "w": "Hoe verder in de keten, hoe meer gif per dier.",
             "meer": "Daarom wordt soms gezegd dat je niet te vaak grote roofvis moet eten.",
             "fout": {
-              "grote vissen zwemmen in vuiler water": "Ze kunnen in hetzelfde water zwemmen. Het verschil komt door hun plek in de keten.",
-              "kleine vissen maken het gif onschadelijk": "Dan zou het niet doorgegeven worden. Ze raken het juist niet kwijt."
+              "grote vissen zwemmen in vuiler en dieper water": "Ze kunnen in hetzelfde water zwemmen. Het verschil komt door hun plek in de keten.",
+              "kleine vissen maken het gif zelf onschadelijk": "Dan zou het niet doorgegeven worden. Ze raken het juist niet kwijt."
             }
           },
           {
@@ -1704,32 +1704,32 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Storm zegt: 'Het gif wordt in de keten steeds meer verdeeld, dus de snoek krijgt maar een klein beetje.' Wat klopt?",
             "o": [
-              "Goed: het gif wordt over veel dieren verdeeld.",
-              "Fout: de alg krijgt het meeste.",
-              "Fout: het gif hoopt juist op, de snoek krijgt het meeste."
+              "Goed: het gif wordt over steeds meer dieren verdeeld.",
+              "Fout: de alg aan het begin krijgt per stuk het meeste.",
+              "Fout: het gif hoopt op, de snoek krijgt het meeste."
             ],
-            "a": "Fout: het gif hoopt juist op, de snoek krijgt het meeste.",
+            "a": "Fout: het gif hoopt op, de snoek krijgt het meeste.",
             "w": "Het gif wordt niet verdeeld maar verzameld: elk dier eet veel prooien en raakt het niet kwijt.",
             "meer": "Denk aan sparen: elke keer komt er iets bij en er gaat niets af.",
             "fout": {
-              "Goed: het gif wordt over veel dieren verdeeld.": "Dat is de bekende denkfout. De snoek eet veel baarzen; al hun gif komt samen in de snoek.",
-              "Fout: de alg krijgt het meeste.": "Bij de alg begint het, maar daar zit per organisme juist het minst."
+              "Goed: het gif wordt over steeds meer dieren verdeeld.": "Dat is de bekende denkfout. De snoek eet veel baarzen; al hun gif komt samen in de snoek.",
+              "Fout: de alg aan het begin krijgt per stuk het meeste.": "Bij de alg begint het, maar daar zit per organisme juist het minst."
             }
           },
           {
             "t": "mc",
             "q": "Waarom hoopt een stof die een dier heel makkelijk weer kwijtraakt <b>niet</b> op in de keten?",
             "o": [
-              "dan blijft hij niet in het lichaam zitten, dus wordt hij niet doorgegeven",
-              "omdat zo'n stof nooit giftig is",
-              "omdat zo'n stof alleen in planten zit"
+              "hij blijft niet zitten, dus wordt niet doorgegeven",
+              "omdat zo'n stof nooit giftig is voor dieren",
+              "omdat zo'n stof alleen in planten zit, niet in dieren"
             ],
-            "a": "dan blijft hij niet in het lichaam zitten, dus wordt hij niet doorgegeven",
+            "a": "hij blijft niet zitten, dus wordt niet doorgegeven",
             "w": "Accumulatie werkt alleen als het organisme de stof niet kwijtraakt.",
             "meer": "Niet kwijtraken is de sleutel. Zonder dat geen ophoping.",
             "fout": {
-              "omdat zo'n stof nooit giftig is": "Ook een giftige stof kan makkelijk kwijt te raken zijn. Giftig zijn is niet de reden.",
-              "omdat zo'n stof alleen in planten zit": "Het gaat om of het dier de stof kwijtraakt, niet om waar hij zit."
+              "omdat zo'n stof nooit giftig is voor dieren": "Ook een giftige stof kan makkelijk kwijt te raken zijn. Giftig zijn is niet de reden.",
+              "omdat zo'n stof alleen in planten zit, niet in dieren": "Het gaat om of het dier de stof kwijtraakt, niet om waar hij zit."
             }
           },
           {
@@ -1754,18 +1754,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Waarom is <b>biomassa</b> een betere maat dan massa als je wilt weten hoeveel voedsel een vis oplevert voor een reiger?",
             "o": [
-              "biomassa telt alleen de energierijke stoffen waar de reiger van groeit en beweegt",
-              "biomassa is altijd groter dan massa",
-              "biomassa telt de graten ook mee",
-              "massa telt het water niet mee"
+              "biomassa telt alleen de energierijke stoffen",
+              "biomassa is altijd groter dan massa, dus nauwkeuriger",
+              "biomassa telt de graten en botten ook mee",
+              "massa telt het water in de vis niet mee"
             ],
-            "a": "biomassa telt alleen de energierijke stoffen waar de reiger van groeit en beweegt",
+            "a": "biomassa telt alleen de energierijke stoffen",
             "w": "Van water en graten groeit de reiger niet. De biomassa laat zien hoeveel echt voedsel erin zit.",
             "meer": "Massa = weegschaal. Biomassa = bruikbaar voedsel.",
             "fout": {
-              "biomassa is altijd groter dan massa": "Andersom: biomassa is altijd lager dan massa.",
-              "biomassa telt de graten ook mee": "Graten (botten) tellen juist níet mee in de biomassa.",
-              "massa telt het water niet mee": "Massa is het totale gewicht, dus water telt daar wél mee."
+              "biomassa is altijd groter dan massa, dus nauwkeuriger": "Andersom: biomassa is altijd lager dan massa.",
+              "biomassa telt de graten en botten ook mee": "Graten (botten) tellen juist níet mee in de biomassa.",
+              "massa telt het water in de vis niet mee": "Massa is het totale gewicht, dus water telt daar wél mee."
             }
           },
           {
@@ -1923,36 +1923,36 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat maken reducenten van dode resten?",
             "o": [
-              "giftige stoffen",
-              "nuttige stoffen die planten uit de bodem opnemen",
-              "plastic",
-              "niets, het verdwijnt gewoon"
+              "giftige stoffen die in de bodem blijven",
+              "nuttige stoffen die planten opnemen",
+              "plastic en ander levenloos materiaal",
+              "niets, de resten verdwijnen gewoon"
             ],
-            "a": "nuttige stoffen die planten uit de bodem opnemen",
+            "a": "nuttige stoffen die planten opnemen",
             "w": "Reducenten maken van resten weer nuttige stoffen voor planten.",
             "meer": "Zo krijgen planten nieuwe stoffen, en begint alles opnieuw.",
             "fout": {
-              "giftige stoffen": "Juist niet: ze maken er nuttige stoffen van.",
-              "plastic": "Plastic is niet-biologisch, levenloos materiaal. Reducenten maken dat niet.",
-              "niets, het verdwijnt gewoon": "Er verdwijnt niets: de resten worden omgezet in nuttige stoffen in de bodem."
+              "giftige stoffen die in de bodem blijven": "Juist niet: ze maken er nuttige stoffen van.",
+              "plastic en ander levenloos materiaal": "Plastic is niet-biologisch, levenloos materiaal. Reducenten maken dat niet.",
+              "niets, de resten verdwijnen gewoon": "Er verdwijnt niets: de resten worden omgezet in nuttige stoffen in de bodem."
             }
           },
           {
             "t": "mc",
             "q": "Wanneer is iets <b>biologisch afbreekbaar</b>?",
             "o": [
-              "als het in de zon smelt",
-              "als je het kunt verbranden",
+              "als het in de zon langzaam smelt",
+              "als je het kunt verbranden tot as",
               "als reducenten het kunnen afbreken",
-              "als het in water oplost"
+              "als het in water oplost en verdwijnt"
             ],
             "a": "als reducenten het kunnen afbreken",
             "w": "Biologisch afbreekbaar = afgebroken kunnen worden door reducenten.",
             "meer": "Bio = leven: levende organismen (bacteriën en schimmels) breken het af.",
             "fout": {
-              "als het in de zon smelt": "Smelten is iets anders. Het gaat om afbraak door reducenten.",
-              "als je het kunt verbranden": "Plastic kun je ook verbranden en dat is níet biologisch afbreekbaar.",
-              "als het in water oplost": "Oplossen is geen afbraak door reducenten. Suiker lost op, glas niet, maar daar gaat de definitie niet over."
+              "als het in de zon langzaam smelt": "Smelten is iets anders. Het gaat om afbraak door reducenten.",
+              "als je het kunt verbranden tot as": "Plastic kun je ook verbranden en dat is níet biologisch afbreekbaar.",
+              "als het in water oplost en verdwijnt": "Oplossen is geen afbraak door reducenten. Suiker lost op, glas niet, maar daar gaat de definitie niet over."
             }
           },
           {
@@ -1993,34 +1993,34 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Hoe kun je plastic laten 'verdwijnen'?",
             "o": [
-              "reducenten breken het binnen een jaar af",
-              "door verbranden, maar dan komen schadelijke stoffen vrij",
-              "het lost vanzelf op in zeewater",
-              "afvaleters eten en verteren het"
+              "reducenten in de bodem breken het binnen een jaar af",
+              "verbranden, maar dan komen schadelijke stoffen vrij",
+              "het lost na een paar jaar vanzelf op in zeewater",
+              "afvaleters zoals regenwormen eten en verteren het"
             ],
-            "a": "door verbranden, maar dan komen schadelijke stoffen vrij",
+            "a": "verbranden, maar dan komen schadelijke stoffen vrij",
             "w": "Plastic kan alleen 'verdwijnen' door het bijvoorbeeld te verbranden. Dan komen schadelijke stoffen vrij en kost het energie.",
             "meer": "Daarom is minder plastic gebruiken beter dan het achteraf opruimen.",
             "fout": {
-              "reducenten breken het binnen een jaar af": "Reducenten kunnen plastic helemaal niet afbreken: het is levenloos materiaal.",
-              "het lost vanzelf op in zeewater": "Plastic verdwijnt niet vanzelf. Daarom bestaat de plasticsoep.",
-              "afvaleters eten en verteren het": "Afvaleters eten dode resten van planten en dieren. Plastic hoort daar niet bij."
+              "reducenten in de bodem breken het binnen een jaar af": "Reducenten kunnen plastic helemaal niet afbreken: het is levenloos materiaal.",
+              "het lost na een paar jaar vanzelf op in zeewater": "Plastic verdwijnt niet vanzelf. Daarom bestaat de plasticsoep.",
+              "afvaleters zoals regenwormen eten en verteren het": "Afvaleters eten dode resten van planten en dieren. Plastic hoort daar niet bij."
             }
           },
           {
             "t": "mc",
             "q": "Is rotten nuttig?",
             "o": [
-              "nee, rotten maakt alles vies",
-              "ja, reducenten maken er nuttige stoffen voor planten van",
-              "nee, het is een ziekte van planten"
+              "nee, rotten maakt alles vies en stinkend",
+              "ja, het levert stoffen voor planten op",
+              "nee, rotten is een ziekte van planten"
             ],
-            "a": "ja, reducenten maken er nuttige stoffen voor planten van",
+            "a": "ja, het levert stoffen voor planten op",
             "w": "Rotten en bederven is het werk van reducenten. Dat is nuttig: planten krijgen er nieuwe stoffen door.",
             "meer": "Zonder rotten zou het bos vol dode bladeren liggen.",
             "fout": {
-              "nee, rotten maakt alles vies": "Het ruikt misschien vies, maar het is nuttig werk: zo komen stoffen terug in de bodem.",
-              "nee, het is een ziekte van planten": "Rotten gebeurt met dode resten. Het is opruimen, geen ziekte."
+              "nee, rotten maakt alles vies en stinkend": "Het ruikt misschien vies, maar het is nuttig werk: zo komen stoffen terug in de bodem.",
+              "nee, rotten is een ziekte van planten": "Rotten gebeurt met dode resten. Het is opruimen, geen ziekte."
             }
           }
         ]
@@ -2103,32 +2103,32 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Een bakje is gemaakt van plantaardig materiaal (zoals maïs). Is het biologisch afbreekbaar?",
             "o": [
-              "nee, alle verpakkingen zijn niet-afbreekbaar",
-              "ja, plantaardig materiaal kunnen reducenten afbreken",
-              "nee, alleen eten is afbreekbaar"
+              "nee, verpakkingen zijn nooit biologisch afbreekbaar",
+              "ja, reducenten breken plantaardig materiaal af",
+              "nee, alleen etensresten zijn biologisch afbreekbaar"
             ],
-            "a": "ja, plantaardig materiaal kunnen reducenten afbreken",
+            "a": "ja, reducenten breken plantaardig materiaal af",
             "w": "Ook afval zoals een verpakking van plantaardig materiaal kan biologisch afbreekbaar zijn.",
             "meer": "Het gaat om het materiaal, niet om wat het is (verpakking of eten).",
             "fout": {
-              "nee, alle verpakkingen zijn niet-afbreekbaar": "Een verpakking van plantaardig materiaal kan wel worden afgebroken. Het materiaal bepaalt het.",
-              "nee, alleen eten is afbreekbaar": "Alle plantaardige of dierlijke materialen zijn afbreekbaar, ook als je het niet eet, zoals een dood blad."
+              "nee, verpakkingen zijn nooit biologisch afbreekbaar": "Een verpakking van plantaardig materiaal kan wel worden afgebroken. Het materiaal bepaalt het.",
+              "nee, alleen etensresten zijn biologisch afbreekbaar": "Alle plantaardige of dierlijke materialen zijn afbreekbaar, ook als je het niet eet, zoals een dood blad."
             }
           },
           {
             "t": "mc",
             "q": "Wat gebeurt er als er in een bos <b>geen reducenten</b> meer zouden zijn?",
             "o": [
-              "er gebeurt niets, de afvaleters doen alles",
-              "het bos wordt juist schoner",
-              "dode resten stapelen op en planten krijgen geen nieuwe stoffen uit de bodem"
+              "er gebeurt niets, want de afvaleters ruimen alles al op",
+              "het bos wordt juist schoner, want er rot niets meer",
+              "dode resten stapelen op en planten missen nieuwe stoffen"
             ],
-            "a": "dode resten stapelen op en planten krijgen geen nieuwe stoffen uit de bodem",
+            "a": "dode resten stapelen op en planten missen nieuwe stoffen",
             "w": "Reducenten maken van resten nuttige stoffen voor planten. Zonder hen stopt dat.",
             "meer": "Reducenten zijn de laatste stap van de opruimploeg.",
             "fout": {
-              "er gebeurt niets, de afvaleters doen alles": "Afvaleters laten uitwerpselen en resten achter. Die moeten reducenten nog verder afbreken.",
-              "het bos wordt juist schoner": "Andersom: dode resten worden niet meer helemaal afgebroken en blijven liggen."
+              "er gebeurt niets, want de afvaleters ruimen alles al op": "Afvaleters laten uitwerpselen en resten achter. Die moeten reducenten nog verder afbreken.",
+              "het bos wordt juist schoner, want er rot niets meer": "Andersom: dode resten worden niet meer helemaal afgebroken en blijven liggen."
             }
           },
           {
@@ -2143,32 +2143,32 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Storm vindt een plastic flesje op het strand. Ze denkt: 'Over een paar jaar is dat vanzelf weg.' Klopt dat?",
             "o": [
-              "ja, de zee lost het op",
-              "nee, plastic is niet-biologisch afbreekbaar en verdwijnt niet",
-              "ja, bacteriën eten het op"
+              "ja, de zee lost het in een paar jaar langzaam op",
+              "nee, plastic is niet-biologisch afbreekbaar",
+              "ja, bacteriën in het zand breken het vanzelf af"
             ],
-            "a": "nee, plastic is niet-biologisch afbreekbaar en verdwijnt niet",
+            "a": "nee, plastic is niet-biologisch afbreekbaar",
             "w": "Plastic is levenloos materiaal: reducenten kunnen het niet afbreken, dus het blijft.",
             "meer": "Daarom drijven er hele eilanden plastic in de oceaan: de plasticsoep.",
             "fout": {
-              "ja, de zee lost het op": "Plastic lost niet op in zeewater. Daarom bestaat de plasticsoep.",
-              "ja, bacteriën eten het op": "Bacteriën (reducenten) kunnen alleen plantaardig of dierlijk materiaal afbreken, geen plastic."
+              "ja, de zee lost het in een paar jaar langzaam op": "Plastic lost niet op in zeewater. Daarom bestaat de plasticsoep.",
+              "ja, bacteriën in het zand breken het vanzelf af": "Bacteriën (reducenten) kunnen alleen plantaardig of dierlijk materiaal afbreken, geen plastic."
             }
           },
           {
             "t": "mc",
             "q": "Waarom is plastic verbranden ook geen goede oplossing?",
             "o": [
-              "dan wordt het gewoon weer plastic",
+              "dan wordt het na een tijdje gewoon weer plastic",
               "er komen schadelijke stoffen vrij en het kost energie",
-              "dan ontstaat er meer plasticsoep"
+              "dan ontstaat er door de as nog meer plasticsoep in zee"
             ],
             "a": "er komen schadelijke stoffen vrij en het kost energie",
             "w": "Bij verbranden komen schadelijke stoffen vrij en het kost energie.",
             "meer": "Beter: minder plastic gebruiken en hergebruiken.",
             "fout": {
-              "dan wordt het gewoon weer plastic": "Verbrand plastic is weg als plastic, maar er komen schadelijke stoffen bij vrij.",
-              "dan ontstaat er meer plasticsoep": "Plasticsoep ontstaat door plastic in zee, niet door verbranden. Het probleem van verbranden is de schadelijke stoffen."
+              "dan wordt het na een tijdje gewoon weer plastic": "Verbrand plastic is weg als plastic, maar er komen schadelijke stoffen bij vrij.",
+              "dan ontstaat er door de as nog meer plasticsoep in zee": "Plasticsoep ontstaat door plastic in zee, niet door verbranden. Het probleem van verbranden is de schadelijke stoffen."
             }
           },
           {
@@ -2236,49 +2236,49 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat is het verschil tussen een <b>afvaleter</b> en een <b>reducent</b>?",
             "o": [
-              "afvaleter = bacterie; reducent = dier",
-              "afvaleter = dier dat dode resten eet; reducent = bacterie of schimmel die het verder afbreekt",
-              "er is geen verschil, allebei eten ze afval",
-              "een afvaleter eet levende planten, een reducent dode"
+              "afvaleter = bacterie of schimmel; reducent = dier",
+              "afvaleter = dier; reducent = bacterie of schimmel",
+              "geen verschil: allebei eten ze dode resten op",
+              "afvaleter eet levende planten; reducent eet dode"
             ],
-            "a": "afvaleter = dier dat dode resten eet; reducent = bacterie of schimmel die het verder afbreekt",
+            "a": "afvaleter = dier; reducent = bacterie of schimmel",
             "w": "Afvaleters zijn dieren; reducenten zijn bacteriën en schimmels die de resten van afvaleters nóg verder afbreken.",
             "meer": "Grove opruimer (afvaleter) tegenover fijne opruimer (reducent).",
             "fout": {
-              "afvaleter = bacterie; reducent = dier": "Precies omgekeerd.",
-              "er is geen verschil, allebei eten ze afval": "Ze ruimen allebei op, maar het zijn verschillende organismen en ze doen een andere stap.",
-              "een afvaleter eet levende planten, een reducent dode": "Afvaleters eten juist dode resten. Wie levende planten eet, is een consument van de 1e orde."
+              "afvaleter = bacterie of schimmel; reducent = dier": "Precies omgekeerd.",
+              "geen verschil: allebei eten ze dode resten op": "Ze ruimen allebei op, maar het zijn verschillende organismen en ze doen een andere stap.",
+              "afvaleter eet levende planten; reducent eet dode": "Afvaleters eten juist dode resten. Wie levende planten eet, is een consument van de 1e orde."
             }
           },
           {
             "t": "mc",
             "q": "Welke volgorde past bij het opruimen van een dode vis op de bodem van een sloot?",
             "o": [
-              "eerst reducenten, daarna afvaleters, dan plastic",
+              "eerst reducenten, daarna afvaleters, dan nuttige stoffen voor planten",
               "eerst afvaleters, daarna reducenten, dan nuttige stoffen voor planten",
-              "eerst planten, daarna afvaleters, dan reducenten"
+              "eerst planten, daarna afvaleters, dan reducenten in de bodem"
             ],
             "a": "eerst afvaleters, daarna reducenten, dan nuttige stoffen voor planten",
             "w": "Afvaleters eten de dode resten, reducenten breken hun uitwerpselen en restjes verder af, en planten nemen de stoffen op.",
             "meer": "Zo komen de stoffen weer terug bij het begin van de voedselketen.",
             "fout": {
-              "eerst reducenten, daarna afvaleters, dan plastic": "Reducenten breken de resten van afvaleters af, dus komen ná de afvaleters. En er ontstaat geen plastic.",
-              "eerst planten, daarna afvaleters, dan reducenten": "De planten komen aan het eind: zij nemen de nuttige stoffen op die de reducenten maken."
+              "eerst reducenten, daarna afvaleters, dan nuttige stoffen voor planten": "Omgedraaid: reducenten breken de resten van de afvaleters verder af, dus ze komen ná de afvaleters.",
+              "eerst planten, daarna afvaleters, dan reducenten in de bodem": "De planten komen aan het eind: zij nemen de nuttige stoffen op die de reducenten maken."
             }
           },
           {
             "t": "mc",
             "q": "Hoe komt plastic uit de oceaan ook bij dieren op het <b>land</b> terecht?",
             "o": [
-              "het waait het land op en dieren ademen het in",
+              "het waait als stof het land op en dieren ademen het in",
               "reducenten brengen het naar de bodem op het land",
-              "dieren eten het, worden zelf gegeten, en zo gaat het via accumulatie verder"
+              "via accumulatie: dieren eten het en worden zelf gegeten"
             ],
-            "a": "dieren eten het, worden zelf gegeten, en zo gaat het via accumulatie verder",
+            "a": "via accumulatie: dieren eten het en worden zelf gegeten",
             "w": "Organismen eten het plastic op en via accumulatie komt het ook op land bij dieren terecht.",
             "meer": "Plastic breekt niet af, dus het gaat gewoon mee de keten door.",
             "fout": {
-              "het waait het land op en dieren ademen het in": "Het plastic gaat via eten verder: dieren eten het en worden zelf weer gegeten. Zo reist het de voedselketen door.",
+              "het waait als stof het land op en dieren ademen het in": "Het plastic gaat via eten verder: dieren eten het en worden zelf weer gegeten. Zo reist het de voedselketen door.",
               "reducenten brengen het naar de bodem op het land": "Reducenten kunnen plastic niet afbreken en vervoeren niets. Het gaat via eten."
             }
           },
@@ -2286,31 +2286,31 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Welke dieren zullen bij plasticsoep het <b>meeste</b> plastic in hun lijf krijgen?",
             "o": [
-              "kleine zeediertjes aan het begin van de keten",
-              "dieren aan het einde van de voedselketen, zoals zeehonden",
-              "algen"
+              "kleine zeediertjes aan het begin van de voedselketen",
+              "dieren aan het eind van de keten, zoals zeehonden",
+              "algen, want die drijven tussen het plastic"
             ],
-            "a": "dieren aan het einde van de voedselketen, zoals zeehonden",
+            "a": "dieren aan het eind van de keten, zoals zeehonden",
             "w": "Net als bij gif: wat niet afbreekt, hoopt op aan het einde van de keten.",
             "meer": "Plasticsoep + accumulatie = hoe hoger in de keten, hoe meer plastic per dier.",
             "fout": {
-              "kleine zeediertjes aan het begin van de keten": "Zij krijgen het als eersten, maar worden zelf gegeten. Het hoopt op bij de eters.",
-              "algen": "Algen zijn producenten; ze eten geen plastic. Het hoopt op bij dieren aan het einde."
+              "kleine zeediertjes aan het begin van de voedselketen": "Zij krijgen het als eersten, maar worden zelf gegeten. Het hoopt op bij de eters.",
+              "algen, want die drijven tussen het plastic": "Algen zijn producenten; ze eten geen plastic. Het hoopt op bij dieren aan het einde."
             }
           },
           {
             "t": "mc",
             "q": "Waarom is een plastic tas slechter voor het milieu dan een papieren zak, als hij in de natuur belandt?",
             "o": [
-              "papier is plantaardig en wordt door reducenten afgebroken, plastic niet",
-              "plastic is zwaarder dan papier",
+              "reducenten breken papier af, plastic niet",
+              "plastic is zwaarder en zakt dieper de grond in",
               "een papieren zak is ook niet afbreekbaar, maar kleiner"
             ],
-            "a": "papier is plantaardig en wordt door reducenten afgebroken, plastic niet",
+            "a": "reducenten breken papier af, plastic niet",
             "w": "Papier komt van bomen: biologisch afbreekbaar. Plastic is levenloos materiaal: blijft liggen.",
             "meer": "De vraag is steeds: kunnen reducenten het afbreken?",
             "fout": {
-              "plastic is zwaarder dan papier": "Gewicht maakt niet uit. Het gaat erom of reducenten het kunnen afbreken.",
+              "plastic is zwaarder en zakt dieper de grond in": "Gewicht maakt niet uit. Het gaat erom of reducenten het kunnen afbreken.",
               "een papieren zak is ook niet afbreekbaar, maar kleiner": "Papier is plantaardig en dus wél biologisch afbreekbaar."
             }
           },
@@ -2318,15 +2318,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Storm zegt: 'Schimmels en bacteriën zijn vies, die kun je beter uit de natuur weghalen.' Wat is het beste tegenargument?",
             "o": [
-              "ze zijn niet vies, want ze zijn heel klein",
+              "ze zijn helemaal niet vies, want ze zijn piepklein",
               "zonder schimmels zijn er geen paddenstoelen om te eten",
-              "zonder reducenten worden dode resten niet afgebroken en krijgen planten geen nieuwe stoffen"
+              "zonder reducenten krijgen planten geen nieuwe stoffen"
             ],
-            "a": "zonder reducenten worden dode resten niet afgebroken en krijgen planten geen nieuwe stoffen",
+            "a": "zonder reducenten krijgen planten geen nieuwe stoffen",
             "w": "Reducenten maken van resten nuttige stoffen voor planten. Rotten is nuttig werk.",
             "meer": "Bekende denkfout: reducenten zijn slecht. Ze zijn juist onmisbaar.",
             "fout": {
-              "ze zijn niet vies, want ze zijn heel klein": "Klein of niet: het punt is wat ze dóen. Ze maken stoffen voor planten.",
+              "ze zijn helemaal niet vies, want ze zijn piepklein": "Klein of niet: het punt is wat ze dóen. Ze maken stoffen voor planten.",
               "zonder schimmels zijn er geen paddenstoelen om te eten": "Dat is een bijzaak voor mensen. Het echte argument is hun rol in het ecosysteem."
             }
           },
@@ -2334,18 +2334,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Een regenworm en een schimmel werken allebei aan een dood blad. Wie doet wat?",
             "o": [
-              "de regenworm is reducent, de schimmel afvaleter",
-              "de regenworm eet stukjes blad (afvaleter); de schimmel breekt de resten verder af (reducent)",
-              "allebei zijn ze producenten",
-              "allebei zijn ze afvaleters"
+              "worm = reducent, schimmel = afvaleter",
+              "worm = afvaleter, schimmel = reducent",
+              "worm en schimmel zijn allebei producenten",
+              "worm en schimmel zijn allebei afvaleters"
             ],
-            "a": "de regenworm eet stukjes blad (afvaleter); de schimmel breekt de resten verder af (reducent)",
+            "a": "worm = afvaleter, schimmel = reducent",
             "w": "Regenworm = dier = afvaleter. Schimmel = reducent.",
             "meer": "Vraag je af: is het een dier? Dan afvaleter. Bacterie of schimmel? Dan reducent.",
             "fout": {
-              "de regenworm is reducent, de schimmel afvaleter": "Omgedraaid. Reducenten zijn bacteriën en schimmels; de worm is een dier.",
-              "allebei zijn ze producenten": "Producenten maken voedsel met fotosynthese. Deze twee breken juist af.",
-              "allebei zijn ze afvaleters": "Afvaleters zijn dieren. Een schimmel is geen dier, maar een reducent."
+              "worm = reducent, schimmel = afvaleter": "Omgedraaid. Reducenten zijn bacteriën en schimmels; de worm is een dier.",
+              "worm en schimmel zijn allebei producenten": "Producenten maken voedsel met fotosynthese. Deze twee breken juist af.",
+              "worm en schimmel zijn allebei afvaleters": "Afvaleters zijn dieren. Een schimmel is geen dier, maar een reducent."
             }
           },
           {
@@ -2882,7 +2882,7 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Je tekent de koolstofkringloop. Welke pijl teken je van 'konijn' naar 'lucht'?",
             "o": [
-              "fotosynthese: het konijn maakt glucose",
+              "fotosynthese: het konijn maakt glucose uit lucht",
               "verdamping: het konijn zweet water uit",
               "accumulatie: het konijn hoopt koolstof op",
               "verbranding: het konijn maakt koolstofdioxide"
@@ -2891,7 +2891,7 @@ window.LEERSTOF = [
             "w": "Het konijn gebruikt voedsel als energie (verbranding) en zet daarbij koolstofdioxide in de lucht.",
             "meer": "Van een dier naar de lucht is altijd verbranding; van de lucht naar een plant is fotosynthese.",
             "fout": {
-              "fotosynthese: het konijn maakt glucose": "Dieren kunnen geen fotosynthese doen. Alleen planten maken glucose.",
+              "fotosynthese: het konijn maakt glucose uit lucht": "Dieren kunnen geen fotosynthese doen. Alleen planten maken glucose.",
               "verdamping: het konijn zweet water uit": "Dat hoort bij water, niet bij koolstof.",
               "accumulatie: het konijn hoopt koolstof op": "Accumulatie gaat over giftige stoffen die zich ophopen. En dan zou de koolstof juist niet naar de lucht gaan."
             }
@@ -3061,18 +3061,18 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Gaat biologisch evenwicht over één soort of over meer soorten?",
             "o": [
-              "altijd over één soort",
-              "alleen over planten",
-              "alleen over roofdieren",
+              "altijd over één soort tegelijk",
+              "alleen over planten in een gebied",
+              "alleen over de roofdieren bovenaan",
               "altijd over meerdere soorten"
             ],
             "a": "altijd over meerdere soorten",
             "w": "Soorten hebben invloed op elkaar, bijvoorbeeld vossen en konijnen. Daarom gaat het altijd om meerdere soorten.",
             "meer": "Je kunt de konijnen niet los zien van de vossen: als de één verandert, verandert de ander mee.",
             "fout": {
-              "altijd over één soort": "Eén soort tellen is populatiegrootte. Evenwicht gaat over meerdere soorten die elkaar beïnvloeden.",
-              "alleen over planten": "Het gaat over alle soorten in een ecosysteem, ook dieren, zoals vossen en konijnen.",
-              "alleen over roofdieren": "Ook prooidieren, planten en andere soorten doen mee."
+              "altijd over één soort tegelijk": "Eén soort tellen is populatiegrootte. Evenwicht gaat over meerdere soorten die elkaar beïnvloeden.",
+              "alleen over planten in een gebied": "Het gaat over alle soorten in een ecosysteem, ook dieren, zoals vossen en konijnen.",
+              "alleen over de roofdieren bovenaan": "Ook prooidieren, planten en andere soorten doen mee."
             }
           },
           {
@@ -3360,16 +3360,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat is het verschil tussen een populatie en de populatiegrootte?",
             "o": [
-              "Een populatie is de groep zelf; populatiegrootte is hoeveel het er zijn",
-              "Er is geen verschil",
+              "Populatie is de groep; populatiegrootte is het aantal",
+              "Er is geen verschil, het zijn twee woorden voor hetzelfde",
               "Een populatie is één dier; populatiegrootte is de groep",
               "Populatiegrootte gaat over meerdere soorten, populatie over één"
             ],
-            "a": "Een populatie is de groep zelf; populatiegrootte is hoeveel het er zijn",
+            "a": "Populatie is de groep; populatiegrootte is het aantal",
             "w": "De populatie is de groep organismen van één soort in een gebied; de populatiegrootte is het aantal.",
             "meer": "Je voetbalteam is de groep; 'we zijn met 15' is de grootte.",
             "fout": {
-              "Er is geen verschil": "Het lijkt op elkaar, maar de één is een groep en de ander een getal.",
+              "Er is geen verschil, het zijn twee woorden voor hetzelfde": "Het lijkt op elkaar, maar de één is een groep en de ander een getal.",
               "Een populatie is één dier; populatiegrootte is de groep": "Eén dier is een individu. Een populatie is al een groep.",
               "Populatiegrootte gaat over meerdere soorten, populatie over één": "Allebei gaan over één soort. Meerdere soorten samen is een levensgemeenschap."
             }
@@ -4717,17 +4717,17 @@ window.LEERSTOF = [
             "q": "Wat is een <b>gen</b>?",
             "o": [
               "Alle informatie voor al je erfelijke eigenschappen samen",
-              "Een heel chromosoom",
+              "Een hele chromosoomdraad die de informatie bevat voor één eigenschap",
               "Stukjes DNA die samen de informatie bevatten voor één eigenschap",
-              "Een cel die eigenschappen doorgeeft"
+              "Een cel die de informatie voor één eigenschap doorgeeft"
             ],
             "a": "Stukjes DNA die samen de informatie bevatten voor één eigenschap",
             "w": "Een gen is een stukje van een chromosoom, met informatie voor één eigenschap.",
             "meer": "Eén gen = één recept, bijvoorbeeld het recept voor je oogkleur.",
             "fout": {
               "Alle informatie voor al je erfelijke eigenschappen samen": "Dat is het genotype: álle genen samen. Een gen gaat over één eigenschap.",
-              "Een heel chromosoom": "Een chromosoom bevat juist meerdere genen. Een gen is maar een stukje ervan.",
-              "Een cel die eigenschappen doorgeeft": "Een gen is geen cel, maar een stukje DNA ín de celkern."
+              "Een hele chromosoomdraad die de informatie bevat voor één eigenschap": "Een chromosoom bevat juist meerdere genen. Een gen is maar een stukje ervan.",
+              "Een cel die de informatie voor één eigenschap doorgeeft": "Een gen is geen cel, maar een stukje DNA ín de celkern."
             }
           },
           {
@@ -4800,16 +4800,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Is een cel uit het blad van een tulp een lichaamscel?",
             "o": [
-              "Nee, planten hebben geen lichaamscellen",
-              "Ja, het is een cel die onderdeel is van het lichaam van de plant",
-              "Alleen als de cel in de wortel zit"
+              "Nee, planten hebben geen lichaamscellen, alleen dieren",
+              "Ja, het is een deel van het lichaam van de plant",
+              "Alleen als de cel in de wortel of de stengel zit"
             ],
-            "a": "Ja, het is een cel die onderdeel is van het lichaam van de plant",
+            "a": "Ja, het is een deel van het lichaam van de plant",
             "w": "Alle organismen, ook planten, bestaan uit lichaamscellen.",
             "meer": "Een blad is een deel van het plantenlichaam, dus de cellen erin zijn lichaamscellen.",
             "fout": {
-              "Nee, planten hebben geen lichaamscellen": "Ook planten bestaan uit lichaamscellen; alleen eicellen en stuifmeelkorrels zijn geslachtscellen.",
-              "Alleen als de cel in de wortel zit": "Wortel, stengel, blad: het zijn allemaal delen van het lichaam van de plant, dus allemaal lichaamscellen."
+              "Nee, planten hebben geen lichaamscellen, alleen dieren": "Ook planten bestaan uit lichaamscellen; alleen eicellen en stuifmeelkorrels zijn geslachtscellen.",
+              "Alleen als de cel in de wortel of de stengel zit": "Wortel, stengel, blad: het zijn allemaal delen van het lichaam van de plant, dus allemaal lichaamscellen."
             }
           },
           {
@@ -4834,15 +4834,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Iemand heeft uit een drinkfles gedronken. In het speeksel zitten een paar wangcellen. Zit daar DNA in?",
             "o": [
-              "Nee, DNA zit alleen in bloed",
+              "Nee, DNA zit alleen in bloed, niet in speeksel",
               "Nee, DNA zit alleen in eicellen en zaadcellen",
-              "Ja, want elke celkern bevat alle chromosomen, en die zijn van DNA"
+              "Ja, elke celkern bevat alle chromosomen"
             ],
-            "a": "Ja, want elke celkern bevat alle chromosomen, en die zijn van DNA",
+            "a": "Ja, elke celkern bevat alle chromosomen",
             "w": "Elke celkern bevat alle chromosomen, dus ook een wangcel heeft al het DNA.",
             "meer": "Daarom kan de politie DNA vinden op een fles of een kauwgom.",
             "fout": {
-              "Nee, DNA zit alleen in bloed": "DNA zit in de kern van elke cel, niet alleen in bloed. Een wangcel heeft ook een kern met alle chromosomen.",
+              "Nee, DNA zit alleen in bloed, niet in speeksel": "DNA zit in de kern van elke cel, niet alleen in bloed. Een wangcel heeft ook een kern met alle chromosomen.",
               "Nee, DNA zit alleen in eicellen en zaadcellen": "Elke celkern heeft alle chromosomen, ook lichaamscellen zoals wangcellen."
             }
           },
@@ -4971,16 +4971,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "In het biologieboek zie je chromosomen getekend als korte X-jes. Storm concludeert: 'Een chromosoom is dus een kort X-vormig staafje.' Klopt dat?",
             "o": [
-              "Ja, zo zien ze er altijd uit",
-              "Nee, een chromosoom is een lange dunne draad; het plaatje is een vereenvoudigde tekening",
-              "Ja, maar alleen in geslachtscellen"
+              "Ja, zo ziet een chromosoom er in elke cel altijd uit",
+              "Nee, het is een lange dunne draad; het X-je is een vereenvoudiging",
+              "Ja, maar alleen in geslachtscellen; anders is het een draad"
             ],
-            "a": "Nee, een chromosoom is een lange dunne draad; het plaatje is een vereenvoudigde tekening",
+            "a": "Nee, het is een lange dunne draad; het X-je is een vereenvoudiging",
             "w": "Volgens de definitie is een chromosoom een lange dunne draad in de celkern.",
             "meer": "Een tekening is een hulpmiddel. Net als een tekening van een voetbalveld: in het echt is het veel groter.",
             "fout": {
-              "Ja, zo zien ze er altijd uit": "De definitie zegt: een lange dunne draad. Het X-plaatje laat niet zien hoe ze er altijd uitzien.",
-              "Ja, maar alleen in geslachtscellen": "Ook in geslachtscellen is een chromosoom een draad van DNA. Het verschil met lichaamscellen zit in het aantal, niet in de vorm."
+              "Ja, zo ziet een chromosoom er in elke cel altijd uit": "De definitie zegt: een lange dunne draad. Het X-plaatje laat niet zien hoe ze er altijd uitzien.",
+              "Ja, maar alleen in geslachtscellen; anders is het een draad": "Ook in geslachtscellen is een chromosoom een draad van DNA. Het verschil met lichaamscellen zit in het aantal, niet in de vorm."
             }
           },
           {
@@ -5005,16 +5005,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Welke uitspraak over DNA, chromosoom en gen is <b>juist</b>?",
             "o": [
-              "DNA en chromosoom betekenen hetzelfde",
+              "DNA en chromosoom zijn twee woorden voor hetzelfde",
               "Een gen is een stof; DNA is een stukje van een gen",
-              "DNA is de stof, een chromosoom is een draad van die stof, een gen is een stukje van die draad",
+              "DNA is de stof, een chromosoom de draad, een gen een stukje",
               "Een chromosoom bevat de informatie voor één eigenschap"
             ],
-            "a": "DNA is de stof, een chromosoom is een draad van die stof, een gen is een stukje van die draad",
+            "a": "DNA is de stof, een chromosoom de draad, een gen een stukje",
             "w": "Stof → draad → stukje: DNA → chromosoom → gen.",
             "meer": "Papier en inkt → boek → recept.",
             "fout": {
-              "DNA en chromosoom betekenen hetzelfde": "DNA is de stof; een chromosoom is de draad die ervan gemaakt is. Net als: papier is geen boek.",
+              "DNA en chromosoom zijn twee woorden voor hetzelfde": "DNA is de stof; een chromosoom is de draad die ervan gemaakt is. Net als: papier is geen boek.",
               "Een gen is een stof; DNA is een stukje van een gen": "Andersom: DNA is de stof, en een gen bestaat uit stukjes DNA.",
               "Een chromosoom bevat de informatie voor één eigenschap": "Dat is een gen. Een chromosoom bevat meerdere genen, dus meerdere eigenschappen."
             }
@@ -5041,29 +5041,29 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Welke uitspraak over de bibliotheek-vergelijking klopt <b>niet</b>?",
             "o": [
-              "Elke cel heeft een andere bibliotheek, met alleen de boeken die ze nodig heeft",
-              "De celkern is de bibliotheek",
-              "Een chromosoom is een boek",
-              "Een gen is een recept in dat boek"
+              "Elke cel heeft een eigen bibliotheek met andere boeken",
+              "De celkern is de bibliotheek waarin alle boeken staan",
+              "Een chromosoom is een boek uit die bibliotheek",
+              "Een gen is één recept in zo'n boek"
             ],
-            "a": "Elke cel heeft een andere bibliotheek, met alleen de boeken die ze nodig heeft",
+            "a": "Elke cel heeft een eigen bibliotheek met andere boeken",
             "w": "Elke celkern bevat alle chromosomen: elke cel heeft dus dezelfde, complete bibliotheek.",
             "meer": "Wel leest elke cel andere boeken; daarom doet een spiercel iets anders dan een huidcel.",
             "fout": {
-              "De celkern is de bibliotheek": "Deze klopt wel: in de kern liggen alle chromosomen. Je zocht de uitspraak die níet klopt.",
-              "Een chromosoom is een boek": "Deze klopt wel: een chromosoom is een draad vol informatie, een boek vol recepten.",
-              "Een gen is een recept in dat boek": "Deze klopt wel: een gen is informatie voor één eigenschap, één recept."
+              "De celkern is de bibliotheek waarin alle boeken staan": "Deze klopt wel: in de kern liggen alle chromosomen. Je zocht de uitspraak die níet klopt.",
+              "Een chromosoom is een boek uit die bibliotheek": "Deze klopt wel: een chromosoom is een draad vol informatie, een boek vol recepten.",
+              "Een gen is één recept in zo'n boek": "Deze klopt wel: een gen is informatie voor één eigenschap, één recept."
             }
           },
           {
             "t": "mc",
             "q": "Waarom zeg je dat een gen 'een stukje van een chromosoom' is?",
             "o": [
-              "Omdat een gen uit stukjes DNA bestaat, en een chromosoom van DNA gemaakt is",
+              "Een gen bestaat uit stukjes DNA van dat chromosoom",
               "Omdat een gen een losse cel is die aan een chromosoom vastzit",
               "Omdat een chromosoom kleiner is dan een gen"
             ],
-            "a": "Omdat een gen uit stukjes DNA bestaat, en een chromosoom van DNA gemaakt is",
+            "a": "Een gen bestaat uit stukjes DNA van dat chromosoom",
             "w": "Een chromosoom is een lange draad DNA; een gen is een stukje van die draad.",
             "meer": "Een recept is een paar bladzijden uit een boek.",
             "fout": {
@@ -5075,16 +5075,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Welke vergelijking past het best bij <b>één gen</b>?",
             "o": [
-              "De hele bibliotheek",
+              "De hele bibliotheek met boeken",
               "Eén recept in een kookboek",
-              "Het hele kookboek"
+              "Het hele kookboek met recepten"
             ],
             "a": "Eén recept in een kookboek",
             "w": "Een gen bevat de informatie voor één eigenschap, net als één recept voor één gerecht.",
             "meer": "Het hele kookboek is een chromosoom; de bibliotheek is de celkern.",
             "fout": {
-              "De hele bibliotheek": "De bibliotheek is de celkern, met álle chromosomen en genen.",
-              "Het hele kookboek": "Het kookboek is het chromosoom: daarin staan meerdere recepten (genen)."
+              "De hele bibliotheek met boeken": "De bibliotheek is de celkern, met álle chromosomen en genen.",
+              "Het hele kookboek met recepten": "Het kookboek is het chromosoom: daarin staan meerdere recepten (genen)."
             }
           },
           {
@@ -5215,15 +5215,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Waarom heten de nieuwe cellen <b>dochter</b>cellen?",
             "o": [
-              "Omdat ze vrouwelijk zijn",
+              "Omdat ze vrouwelijk zijn, net als een dochter",
               "Omdat ze alleen bij meisjes en vrouwen ontstaan",
-              "Het is gewoon de naam; het heeft niets met man of vrouw te maken"
+              "Het is alleen een naam, los van man of vrouw"
             ],
-            "a": "Het is gewoon de naam; het heeft niets met man of vrouw te maken",
+            "a": "Het is alleen een naam, los van man of vrouw",
             "w": "Bij ieder organisme, jong of oud, man of vrouw, heten ze dochtercellen.",
             "meer": "Ook in een jongen of een kater heten ze dochtercellen.",
             "fout": {
-              "Omdat ze vrouwelijk zijn": "Een cel uit celdeling is niet vrouwelijk of mannelijk. Ook bij een man heten ze dochtercellen.",
+              "Omdat ze vrouwelijk zijn, net als een dochter": "Een cel uit celdeling is niet vrouwelijk of mannelijk. Ook bij een man heten ze dochtercellen.",
               "Omdat ze alleen bij meisjes en vrouwen ontstaan": "Celdeling gebeurt in elk organisme, dus ook bij jongens en mannen; ook daar heten ze dochtercellen."
             }
           },
@@ -5249,16 +5249,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Kan een dochtercel later zelf ook weer delen?",
             "o": [
-              "Nee, een dochtercel kan nooit meer delen",
-              "Ja, dochtercellen kunnen later ook weer delen",
-              "Alleen in vrouwen"
+              "Nee, een dochtercel kan zelf nooit meer delen",
+              "Ja, die kunnen later ook weer delen",
+              "Alleen in vrouwen, want het zijn dochtercellen"
             ],
-            "a": "Ja, dochtercellen kunnen later ook weer delen",
+            "a": "Ja, die kunnen later ook weer delen",
             "w": "Een dochtercel is een gewone lichaamscel en kan zelf weer delen.",
             "meer": "1 → 2 → 4 → 8: zo groei je.",
             "fout": {
-              "Nee, een dochtercel kan nooit meer delen": "Dochtercellen kunnen wel weer delen; zo komen er steeds meer cellen.",
-              "Alleen in vrouwen": "Dochtercellen hebben niets met vrouwen te maken; in elk organisme kunnen ze weer delen."
+              "Nee, een dochtercel kan zelf nooit meer delen": "Dochtercellen kunnen wel weer delen; zo komen er steeds meer cellen.",
+              "Alleen in vrouwen, want het zijn dochtercellen": "Dochtercellen hebben niets met vrouwen te maken; in elk organisme kunnen ze weer delen."
             }
           },
           {
@@ -5314,15 +5314,15 @@ window.LEERSTOF = [
             "q": "Storm schaaft haar knie bij het keepen. Hoe ontstaan de nieuwe huidcellen die het wondje dichtmaken?",
             "o": [
               "Door celdeling van huidcellen eromheen",
-              "Ze komen uit het bloed aanzwemmen",
-              "Twee huidcellen smelten samen"
+              "Ze komen vanuit het bloed naar het wondje",
+              "Twee huidcellen smelten samen tot één nieuwe"
             ],
             "a": "Door celdeling van huidcellen eromheen",
             "w": "Huidcellen in de buurt delen en maken nieuwe huidcellen.",
             "meer": "Een cel deelt normaal alleen als het nodig is, zoals na een wondje.",
             "fout": {
-              "Ze komen uit het bloed aanzwemmen": "Nieuwe huidcellen ontstaan door celdeling van huidcellen, niet uit het bloed.",
-              "Twee huidcellen smelten samen": "Samensmelten maakt van twee cellen één; je hebt er juist meer nodig. Dat doet celdeling."
+              "Ze komen vanuit het bloed naar het wondje": "Nieuwe huidcellen ontstaan door celdeling van huidcellen, niet uit het bloed.",
+              "Twee huidcellen smelten samen tot één nieuwe": "Samensmelten maakt van twee cellen één; je hebt er juist meer nodig. Dat doet celdeling."
             }
           },
           {
@@ -5456,11 +5456,11 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Je bent begonnen als één bevruchte eicel. Hoe ben je zo groot geworden?",
             "o": [
-              "Door heel vaak celdeling; elke cel kreeg dezelfde chromosomen",
+              "Door heel vaak celdeling",
               "Die ene cel is gewoon heel groot gegroeid",
               "Door steeds nieuwe chromosomen uit je eten"
             ],
-            "a": "Door heel vaak celdeling; elke cel kreeg dezelfde chromosomen",
+            "a": "Door heel vaak celdeling",
             "w": "Al je lichaamscellen zijn door celdeling ontstaan uit die ene bevruchte eicel.",
             "meer": "Daarom heeft elke lichaamscel van jou dezelfde chromosomen.",
             "fout": {
@@ -5498,9 +5498,9 @@ window.LEERSTOF = [
             "o": [
               "De chromosomenparen worden verdeeld over twee geslachtscellen",
               "Elke nieuwe cel krijgt de helft van de chromosomen",
-              "Uit één lichaamscel ontstaan twee cellen met precies dezelfde chromosomen"
+              "Twee nieuwe cellen met precies dezelfde chromosomen"
             ],
-            "a": "Uit één lichaamscel ontstaan twee cellen met precies dezelfde chromosomen",
+            "a": "Twee nieuwe cellen met precies dezelfde chromosomen",
             "w": "Celdeling geeft twee dezelfde cellen met de complete set.",
             "meer": "Celdeling = kopie maken. Meiose = verdelen.",
             "fout": {
@@ -5512,16 +5512,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Storm schrijft: 'Na celdeling heeft elke dochtercel de helft van de chromosomen.' Wat is er fout?",
             "o": [
-              "Niets, dat klopt",
-              "Bij celdeling worden de chromosomen eerst gekopieerd, dus elke dochtercel krijgt alles",
+              "Niets, dat klopt: de chromosomen worden eerlijk verdeeld",
+              "Ze worden eerst gekopieerd: elke cel krijgt alles",
               "Het is precies twee keer zoveel, niet de helft",
               "Alleen de vrouwelijke dochtercel krijgt de helft"
             ],
-            "a": "Bij celdeling worden de chromosomen eerst gekopieerd, dus elke dochtercel krijgt alles",
+            "a": "Ze worden eerst gekopieerd: elke cel krijgt alles",
             "w": "Door het kopiëren vooraf krijgen beide dochtercellen een complete set.",
             "meer": "Ze verwart celdeling met meiose.",
             "fout": {
-              "Niets, dat klopt": "De helft krijgen is meiose. Bij celdeling ontstaan twee dezelfde cellen, met evenveel chromosomen als eerst.",
+              "Niets, dat klopt: de chromosomen worden eerlijk verdeeld": "De helft krijgen is meiose. Bij celdeling ontstaan twee dezelfde cellen, met evenveel chromosomen als eerst.",
               "Het is precies twee keer zoveel, niet de helft": "De kopieën worden verdeeld, dus elke dochtercel heeft evenveel als de oorspronkelijke cel, niet het dubbele.",
               "Alleen de vrouwelijke dochtercel krijgt de helft": "Dochtercellen zijn niet vrouwelijk; het is alleen een naam. En ze krijgen allebei alles."
             }
@@ -5531,15 +5531,15 @@ window.LEERSTOF = [
             "q": "Welke vergelijking past het best bij celdeling?",
             "o": [
               "Je knipt een tekening doormidden en geeft de helft weg",
-              "Je kopieert je tekening eerst en geeft dan één exemplaar weg",
-              "Je gooit je tekening weg en begint opnieuw"
+              "Je kopieert je tekening en geeft één kopie weg",
+              "Je gooit je tekening weg en begint helemaal opnieuw"
             ],
-            "a": "Je kopieert je tekening eerst en geeft dan één exemplaar weg",
+            "a": "Je kopieert je tekening en geeft één kopie weg",
             "w": "Eerst kopiëren, dan verdelen: allebei een complete, gelijke versie.",
             "meer": "Doormidden knippen lijkt meer op meiose: ieder de helft.",
             "fout": {
               "Je knipt een tekening doormidden en geeft de helft weg": "Dan heeft ieder maar de helft. Bij celdeling krijgen beide cellen de hele set.",
-              "Je gooit je tekening weg en begint opnieuw": "Bij celdeling gaat er niets verloren en wordt er niets nieuws verzonnen; er wordt gekopieerd."
+              "Je gooit je tekening weg en begint helemaal opnieuw": "Bij celdeling gaat er niets verloren en wordt er niets nieuws verzonnen; er wordt gekopieerd."
             }
           },
           {
@@ -5581,16 +5581,16 @@ window.LEERSTOF = [
             "q": "Waarom hebben een levercel en een huidcel van jou dezelfde chromosomen?",
             "o": [
               "Omdat ze toevallig dezelfde ouders hebben",
-              "Omdat ze allemaal door celdeling uit één bevruchte eicel ontstaan zijn",
-              "Omdat ze hetzelfde werk doen",
+              "Door celdeling uit één bevruchte eicel",
+              "Omdat ze in je lichaam hetzelfde werk doen",
               "Omdat ze elk de helft van je chromosomen hebben"
             ],
-            "a": "Omdat ze allemaal door celdeling uit één bevruchte eicel ontstaan zijn",
+            "a": "Door celdeling uit één bevruchte eicel",
             "w": "Bij elke celdeling wordt alles gekopieerd, dus alle cellen hebben dezelfde chromosomen als die eerste cel.",
             "meer": "Kopie van een kopie van een kopie: steeds hetzelfde.",
             "fout": {
               "Omdat ze toevallig dezelfde ouders hebben": "Cellen hebben geen ouders. Ze stammen allemaal via celdeling af van één bevruchte eicel.",
-              "Omdat ze hetzelfde werk doen": "Lever en huid doen heel ander werk. Toch hebben ze dezelfde chromosomen, door celdeling.",
+              "Omdat ze in je lichaam hetzelfde werk doen": "Lever en huid doen heel ander werk. Toch hebben ze dezelfde chromosomen, door celdeling.",
               "Omdat ze elk de helft van je chromosomen hebben": "Lichaamscellen hebben juist álle chromosomen. Alleen geslachtscellen hebben de helft."
             }
           },
@@ -5600,9 +5600,9 @@ window.LEERSTOF = [
             "o": [
               "Bij allebei worden de chromosomen eerst gekopieerd",
               "Celdeling maakt geslachtscellen, meiose maakt lichaamscellen",
-              "Bij celdeling blijft het aantal chromosomen per cel gelijk, bij meiose halveert het"
+              "Celdeling: aantal blijft gelijk; meiose: aantal halveert"
             ],
-            "a": "Bij celdeling blijft het aantal chromosomen per cel gelijk, bij meiose halveert het",
+            "a": "Celdeling: aantal blijft gelijk; meiose: aantal halveert",
             "w": "Celdeling: kopiëren, dus gelijk aantal. Meiose: paren verdelen, dus de helft.",
             "meer": "46 → 46 (celdeling) tegen 46 → 23 (meiose).",
             "fout": {
@@ -5781,15 +5781,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Je bloedgroep kun je niet zien. Hoort hij bij je fenotype?",
             "o": [
-              "Nee, fenotype is alleen wat je ziet",
-              "Ja, ook onzichtbare eigenschappen horen bij het fenotype",
+              "Nee, het fenotype is alleen wat je aan de buitenkant ziet",
+              "Ja, ook onzichtbare eigenschappen tellen mee",
               "Nee, bloedgroep hoort alleen bij het genotype"
             ],
-            "a": "Ja, ook onzichtbare eigenschappen horen bij het fenotype",
+            "a": "Ja, ook onzichtbare eigenschappen tellen mee",
             "w": "Het fenotype is alle eigenschappen, ook die je niet aan de buitenkant ziet.",
             "meer": "De binnenkant van de cake hoort ook bij de cake.",
             "fout": {
-              "Nee, fenotype is alleen wat je ziet": "Dat is de bekendste denkfout. Fenotype = álle eigenschappen, ook onzichtbare.",
+              "Nee, het fenotype is alleen wat je aan de buitenkant ziet": "Dat is de bekendste denkfout. Fenotype = álle eigenschappen, ook onzichtbare.",
               "Nee, bloedgroep hoort alleen bij het genotype": "De informatie voor je bloedgroep staat in je genotype, maar de bloedgroep zelf is een eigenschap: fenotype."
             }
           },
@@ -5797,16 +5797,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Waar ligt je genotype?",
             "o": [
-              "Alleen in je geslachtsorganen",
-              "In je bloed",
+              "Alleen in je geslachtsorganen: in eicellen of zaadcellen",
+              "In je bloed: daar zwemmen al je genen en chromosomen",
               "In de celkern: al je DNA, chromosomen en genen samen"
             ],
             "a": "In de celkern: al je DNA, chromosomen en genen samen",
             "w": "Het genotype is alle erfelijke informatie die in één celkern zit.",
             "meer": "De hele bibliotheek in de kern.",
             "fout": {
-              "Alleen in je geslachtsorganen": "Elke celkern bevat alle chromosomen, dus het hele genotype.",
-              "In je bloed": "Het genotype zit in de celkernen, niet los in het bloed."
+              "Alleen in je geslachtsorganen: in eicellen of zaadcellen": "Elke celkern bevat alle chromosomen, dus het hele genotype.",
+              "In je bloed: daar zwemmen al je genen en chromosomen": "Het genotype zit in de celkernen, niet los in het bloed."
             }
           },
           {
@@ -5947,16 +5947,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Storm heeft van nature groene ogen. Waar hoort dat bij?",
             "o": [
-              "Alleen bij haar genotype",
-              "Alleen bij haar fenotype",
-              "Bij haar fenotype, en de informatie ervoor staat in haar genotype"
+              "Alleen bij haar genotype, want het is erfelijk",
+              "Alleen bij haar fenotype, want je ziet het",
+              "Fenotype, met de informatie in haar genotype"
             ],
-            "a": "Bij haar fenotype, en de informatie ervoor staat in haar genotype",
+            "a": "Fenotype, met de informatie in haar genotype",
             "w": "Oogkleur is een eigenschap (fenotype) én erfelijk, dus de informatie staat in het genotype.",
             "meer": "Erfelijke eigenschap: recept én cake.",
             "fout": {
-              "Alleen bij haar genotype": "Haar oogkleur is ook een eigenschap die je kunt zien, dus hoort hij ook bij het fenotype.",
-              "Alleen bij haar fenotype": "Een natuurlijke oogkleur is erfelijk: de informatie ervoor staat in haar DNA, dus in haar genotype."
+              "Alleen bij haar genotype, want het is erfelijk": "Haar oogkleur is ook een eigenschap die je kunt zien, dus hoort hij ook bij het fenotype.",
+              "Alleen bij haar fenotype, want je ziet het": "Een natuurlijke oogkleur is erfelijk: de informatie ervoor staat in haar DNA, dus in haar genotype."
             }
           },
           {
@@ -6044,15 +6044,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Iemand zegt: 'Genotype en fenotype zijn eigenlijk hetzelfde.' Wat is het beste weerwoord?",
             "o": [
-              "Klopt, het zijn twee woorden voor je DNA",
-              "Nee: het genotype is de erfelijke informatie, het fenotype is al je eigenschappen, ook niet-erfelijke",
+              "Klopt, het zijn twee woorden voor hetzelfde: je DNA",
+              "Nee: genotype is erfelijke informatie, fenotype al je eigenschappen",
               "Nee: het genotype is wat je ziet, het fenotype is wat je niet ziet"
             ],
-            "a": "Nee: het genotype is de erfelijke informatie, het fenotype is al je eigenschappen, ook niet-erfelijke",
+            "a": "Nee: genotype is erfelijke informatie, fenotype al je eigenschappen",
             "w": "Recept tegen cake: de informatie tegenover alles wat er echt is.",
             "meer": "Een litteken bewijst het: wel fenotype, niet genotype.",
             "fout": {
-              "Klopt, het zijn twee woorden voor je DNA": "Alleen het genotype is je DNA. Het fenotype zijn je eigenschappen.",
+              "Klopt, het zijn twee woorden voor hetzelfde: je DNA": "Alleen het genotype is je DNA. Het fenotype zijn je eigenschappen.",
               "Nee: het genotype is wat je ziet, het fenotype is wat je niet ziet": "Het genotype is informatie in je DNA. Het fenotype is zichtbaar én onzichtbaar."
             }
           },
@@ -6061,31 +6061,31 @@ window.LEERSTOF = [
             "q": "Twee bakkers gebruiken precies hetzelfde recept. Bij de een staat de oven te heet en de cake is aangebrand. Waar lijkt dat op?",
             "o": [
               "Zelfde genotype, ander fenotype door invloed van buiten",
-              "Ander genotype, zelfde fenotype",
-              "Het recept is veranderd door de oven"
+              "Ander genotype, zelfde fenotype door invloed van buiten",
+              "Het recept (genotype) is veranderd door de hete oven"
             ],
             "a": "Zelfde genotype, ander fenotype door invloed van buiten",
             "w": "Het recept (genotype) is gelijk; de omgeving (oven) maakt de cake (fenotype) anders.",
             "meer": "Zon, training, een val: allemaal 'ovens'.",
             "fout": {
-              "Ander genotype, zelfde fenotype": "Het recept is juist gelijk en de cakes zijn verschillend. Precies andersom.",
-              "Het recept is veranderd door de oven": "De oven verandert het papier met het recept niet. Zo verandert de zon je DNA niet."
+              "Ander genotype, zelfde fenotype door invloed van buiten": "Het recept is juist gelijk en de cakes zijn verschillend. Precies andersom.",
+              "Het recept (genotype) is veranderd door de hete oven": "De oven verandert het papier met het recept niet. Zo verandert de zon je DNA niet."
             }
           },
           {
             "t": "mc",
             "q": "Kun je je genotype veranderen door elke dag te zwemmen?",
             "o": [
-              "Ja, als je het lang genoeg volhoudt",
-              "Nee, training verandert je fenotype, niet je genotype",
-              "Ja, maar alleen bij kinderen"
+              "Ja, als je het maar lang genoeg elke dag volhoudt",
+              "Nee, alleen je fenotype verandert",
+              "Ja, maar alleen bij kinderen die nog groeien"
             ],
-            "a": "Nee, training verandert je fenotype, niet je genotype",
+            "a": "Nee, alleen je fenotype verandert",
             "w": "Zwemmen verandert je lichaam (fenotype), niet je erfelijke informatie.",
             "meer": "Je kinderen krijgen jouw zwemconditie niet mee.",
             "fout": {
-              "Ja, als je het lang genoeg volhoudt": "Hoe lang je ook traint, je DNA verandert er niet door.",
-              "Ja, maar alleen bij kinderen": "Ook bij kinderen verandert training alleen het fenotype."
+              "Ja, als je het maar lang genoeg elke dag volhoudt": "Hoe lang je ook traint, je DNA verandert er niet door.",
+              "Ja, maar alleen bij kinderen die nog groeien": "Ook bij kinderen verandert training alleen het fenotype."
             }
           },
           {
@@ -6126,15 +6126,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Iemand heeft bloedgroep A. Hoe zit dat?",
             "o": [
-              "Het is geen fenotype, want je ziet het niet",
-              "De bloedgroep is een eigenschap (fenotype); de informatie ervoor staat in het genotype",
+              "Het is geen fenotype, want je kunt je bloedgroep niet zien",
+              "Bloedgroep is fenotype; de informatie staat in je genotype",
               "Het is alleen genotype, want het zit in je bloed"
             ],
-            "a": "De bloedgroep is een eigenschap (fenotype); de informatie ervoor staat in het genotype",
+            "a": "Bloedgroep is fenotype; de informatie staat in je genotype",
             "w": "Bloedgroep is erfelijk én een eigenschap: dus informatie in het genotype en eigenschap in het fenotype.",
             "meer": "Onzichtbaar betekent niet: geen fenotype.",
             "fout": {
-              "Het is geen fenotype, want je ziet het niet": "Het fenotype bevat ook eigenschappen die je niet ziet.",
+              "Het is geen fenotype, want je kunt je bloedgroep niet zien": "Het fenotype bevat ook eigenschappen die je niet ziet.",
               "Het is alleen genotype, want het zit in je bloed": "Het genotype is informatie in je celkernen. De bloedgroep zelf is een eigenschap, dus fenotype."
             }
           },
@@ -6459,16 +6459,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Wat geldt voor de twee chromosomen van een paar?",
             "o": [
-              "Ze hebben dezelfde genen, maar de informatie kan verschillen",
-              "Ze hebben totaal andere genen",
-              "Ze zijn altijd precies gelijk"
+              "Dezelfde genen, maar de informatie kan verschillen",
+              "Ze hebben totaal andere genen, één set van elke ouder",
+              "Ze zijn altijd precies gelijk, met dezelfde informatie"
             ],
-            "a": "Ze hebben dezelfde genen, maar de informatie kan verschillen",
+            "a": "Dezelfde genen, maar de informatie kan verschillen",
             "w": "Beide gaan over dezelfde eigenschappen, maar kunnen een andere variant hebben (blauw of bruin).",
             "meer": "Twee sokken van hetzelfde model, maar misschien een andere kleur.",
             "fout": {
-              "Ze hebben totaal andere genen": "Een paar gaat over dezelfde eigenschappen: op beide liggen dezelfde genen.",
-              "Ze zijn altijd precies gelijk": "De varianten kunnen verschillen, bijvoorbeeld blauw op het ene en bruin op het andere."
+              "Ze hebben totaal andere genen, één set van elke ouder": "Een paar gaat over dezelfde eigenschappen: op beide liggen dezelfde genen.",
+              "Ze zijn altijd precies gelijk, met dezelfde informatie": "De varianten kunnen verschillen, bijvoorbeeld blauw op het ene en bruin op het andere."
             }
           },
           {
@@ -6563,17 +6563,17 @@ window.LEERSTOF = [
             "q": "Boris lijkt sprekend op zijn vader. Iemand zegt: 'Logisch, jongens erven alles van hun vader.' Wat klopt?",
             "o": [
               "Klopt, jongens krijgen alle chromosomen van hun vader",
-              "Nee: ook een jongen krijgt van elk paar één chromosoom van vader en één van moeder",
-              "Klopt, behalve het 23e paar",
-              "Nee: jongens krijgen alles van hun moeder"
+              "Nee: van elk paar komt één chromosoom van elke ouder",
+              "Klopt, behalve het 23e paar, dat komt van moeder",
+              "Nee: jongens krijgen juist alles van hun moeder"
             ],
-            "a": "Nee: ook een jongen krijgt van elk paar één chromosoom van vader en één van moeder",
+            "a": "Nee: van elk paar komt één chromosoom van elke ouder",
             "w": "Iedereen krijgt 23 chromosomen van vader en 23 van moeder, jongen of meisje.",
             "meer": "Op iemand lijken bewijst niet dat je alles van die ouder hebt.",
             "fout": {
               "Klopt, jongens krijgen alle chromosomen van hun vader": "Dan zou een jongen geen chromosomen van zijn moeder hebben. Van elk paar komt er één van moeder.",
-              "Klopt, behalve het 23e paar": "Ook bij paar 1 tot en met 22 komt er één van vader en één van moeder. Bij het 23e trouwens ook: X van moeder, Y van vader.",
-              "Nee: jongens krijgen alles van hun moeder": "Ook andersom klopt het niet: van elk paar komt er één van elke ouder."
+              "Klopt, behalve het 23e paar, dat komt van moeder": "Ook bij paar 1 tot en met 22 komt er één van vader en één van moeder. Bij het 23e trouwens ook: X van moeder, Y van vader.",
+              "Nee: jongens krijgen juist alles van hun moeder": "Ook andersom klopt het niet: van elk paar komt er één van elke ouder."
             }
           },
           {
@@ -6596,16 +6596,16 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Een geslachtscel kan een oneven aantal chromosomen hebben, een lichaamscel niet. Waarom?",
             "o": [
-              "In een geslachtscel liggen ze enkelvoudig, in een lichaamscel in paren",
-              "Geslachtscellen zijn kapot",
-              "Lichaamscellen gooien er eentje weg"
+              "Geslachtscel: enkelvoudig; lichaamscel: in paren",
+              "Geslachtscellen zijn kapot en missen er eentje",
+              "Lichaamscellen gooien er altijd eentje weg"
             ],
-            "a": "In een geslachtscel liggen ze enkelvoudig, in een lichaamscel in paren",
+            "a": "Geslachtscel: enkelvoudig; lichaamscel: in paren",
             "w": "Paren geven altijd een even aantal; enkelvoudig kan ook oneven zijn.",
             "meer": "Hond: 78 (lichaamscel) en 39 (geslachtscel).",
             "fout": {
-              "Geslachtscellen zijn kapot": "Er is niets mis met een geslachtscel; hij heeft gewoon van elk paar één chromosoom.",
-              "Lichaamscellen gooien er eentje weg": "Er wordt niets weggegooid. Lichaamscellen hebben paren, dus altijd even."
+              "Geslachtscellen zijn kapot en missen er eentje": "Er is niets mis met een geslachtscel; hij heeft gewoon van elk paar één chromosoom.",
+              "Lichaamscellen gooien er altijd eentje weg": "Er wordt niets weggegooid. Lichaamscellen hebben paren, dus altijd even."
             }
           },
           {
@@ -6644,15 +6644,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Op het ene chromosoom van paar 15 staat 'blauwe ogen', op het andere 'bruine ogen'. Zijn dat twee verschillende genen?",
             "o": [
-              "Ja, blauw en bruin zijn twee genen",
-              "Nee, het is hetzelfde gen (oogkleur) in twee varianten",
+              "Ja, blauw en bruin zijn twee verschillende genen",
+              "Nee, het is één gen (oogkleur) in twee varianten",
               "Ja, één gen van vader en één ander gen van moeder"
             ],
-            "a": "Nee, het is hetzelfde gen (oogkleur) in twee varianten",
+            "a": "Nee, het is één gen (oogkleur) in twee varianten",
             "w": "De chromosomen van een paar hebben dezelfde genen; de informatie kan verschillen: varianten van een gen.",
             "meer": "Eén recept 'oogkleur', twee versies.",
             "fout": {
-              "Ja, blauw en bruin zijn twee genen": "Blauw en bruin gaan over dezelfde eigenschap: dat is één gen met twee varianten.",
+              "Ja, blauw en bruin zijn twee verschillende genen": "Blauw en bruin gaan over dezelfde eigenschap: dat is één gen met twee varianten.",
               "Ja, één gen van vader en één ander gen van moeder": "Vader en moeder geven hetzelfde gen (oogkleur) door, alleen soms in een andere variant."
             }
           },
@@ -6660,15 +6660,15 @@ window.LEERSTOF = [
             "t": "mc",
             "q": "Iemand heeft op beide chromosomen van een paar de variant 'blauwe ogen'. Wat geldt?",
             "o": [
-              "Beide chromosomen hebben voor oogkleur dezelfde variant",
-              "Er is maar één chromosoom in dat paar",
+              "Beide hebben voor oogkleur dezelfde variant",
+              "Er zit in dat paar maar één chromosoom voor oogkleur",
               "Die persoon heeft alleen chromosomen van één ouder"
             ],
-            "a": "Beide chromosomen hebben voor oogkleur dezelfde variant",
+            "a": "Beide hebben voor oogkleur dezelfde variant",
             "w": "De eigenschap kan op beide chromosomen hetzelfde zijn (2× blauw) of verschillend.",
             "meer": "Allebei de ouders gaven hier de variant 'blauw'.",
             "fout": {
-              "Er is maar één chromosoom in dat paar": "Een paar heeft altijd twee chromosomen; ze hebben hier alleen dezelfde variant.",
+              "Er zit in dat paar maar één chromosoom voor oogkleur": "Een paar heeft altijd twee chromosomen; ze hebben hier alleen dezelfde variant.",
               "Die persoon heeft alleen chromosomen van één ouder": "Van elk paar komt één van vader en één van moeder; ze gaven toevallig allebei 'blauw'."
             }
           },
@@ -7769,11 +7769,11 @@ window.LEERSTOF = [
             "q": "Waar in jouw lichaam zit het gen voor oogkleur?",
             "o": [
               "alleen in de cellen van je ogen",
-              "in de celkern van (bijna) elke cel",
+              "in (bijna) elke celkern",
               "alleen in je geslachtscellen",
               "in je bloed, niet in je cellen"
             ],
-            "a": "in de celkern van (bijna) elke cel",
+            "a": "in (bijna) elke celkern",
             "w": "Elke celkern bevat alle chromosomen, dus alle genen, ook die voor oogkleur.",
             "meer": "Een spiercel heeft het gen voor oogkleur ook, het staat daar alleen niet 'aan'.",
             "fout": {
@@ -8066,11 +8066,11 @@ window.LEERSTOF = [
             "q": "Een witte merel met rode ogen wordt gezien in het park. Hoe noem je zo'n vogel?",
             "o": [
               "een allelenpaar",
-              "een mutant (een albino)",
+              "een albino (mutant)",
               "een mutagene invloed",
               "een tumor"
             ],
-            "a": "een mutant (een albino)",
+            "a": "een albino (mutant)",
             "w": "De mutatie is zichtbaar in het fenotype: geen melanine. Het is een albino, dus een mutant.",
             "meer": "Elke albino is een mutant; niet elke mutant is een albino.",
             "fout": {
@@ -8421,17 +8421,17 @@ window.LEERSTOF = [
             "q": "Wat is een tumor?",
             "o": [
               "een cel die zich ongeremd gaat delen",
-              "een cel die niet meer kan delen",
+              "een cel die zich helemaal niet meer kan delen",
               "een gewone wond die ontstoken is",
-              "een virus in je bloed"
+              "een virus dat in je bloed zit"
             ],
             "a": "een cel die zich ongeremd gaat delen",
             "w": "Een tumor is een cel die ongeremd deelt, omdat het allel dat de celdeling regelt gemuteerd is.",
             "meer": "Ongeremd = zonder rem: hij stopt niet als het genoeg is.",
             "fout": {
-              "een cel die niet meer kan delen": "Precies andersom: een tumorcel deelt juist te veel.",
+              "een cel die zich helemaal niet meer kan delen": "Precies andersom: een tumorcel deelt juist te veel.",
               "een gewone wond die ontstoken is": "Een ontsteking is iets anders. Een tumor ontstaat door een gemuteerd allel voor celdeling.",
-              "een virus in je bloed": "Een tumor bestaat uit je eigen cellen die blijven delen, niet uit een virus."
+              "een virus dat in je bloed zit": "Een tumor bestaat uit je eigen cellen die blijven delen, niet uit een virus."
             }
           },
           {
@@ -9052,11 +9052,11 @@ window.MIXVRAGEN = [
             "levensgemeenschap / biotoop": "De levensgemeenschap is juist het lévende deel (alle populaties samen), niet het levenloze.",
             "biotoop / biosfeer": "De biosfeer is álle ecosystemen van de aarde samen, niet één gebied." } },
   { t: "mc", q: "Bij welke deling ontstaan twee cellen met <b>precies dezelfde</b> chromosomen als de moedercel?",
-    o: ["gewone celdeling", "meiose", "allebei", "geen van beide"], a: "gewone celdeling",
+    o: ["gewone celdeling", "meiose", "allebei de delingen", "geen van beide"], a: "gewone celdeling",
     w: "Bij celdeling worden eerst alle chromosomen gekopieerd: de twee dochtercellen zijn gelijk.",
     meer: "Meiose is de speciale deling voor geslachtscellen: de paren worden verdeeld, dus elke cel krijgt de helft.",
     fout: { "meiose": "Bij meiose worden de chromosomenparen juist verdeeld: elke geslachtscel krijgt maar de helft.",
-            "allebei": "Alleen bij gewone celdeling zijn de dochtercellen gelijk; bij meiose krijgen ze de helft.",
+            "allebei de delingen": "Alleen bij gewone celdeling zijn de dochtercellen gelijk; bij meiose krijgen ze de helft.",
             "geen van beide": "Gewone celdeling geeft wél twee identieke cellen: daarom worden de chromosomen eerst gekopieerd." } },
   { t: "mc", q: "Een korstmos is een schimmel en een alg die samenleven; ze hebben er <b>allebei</b> voordeel van. Welke vorm van symbiose is dat?",
     o: ["mutualisme", "commensalisme", "parasitisme", "concurrentie"], a: "mutualisme",
@@ -9066,12 +9066,12 @@ window.MIXVRAGEN = [
             "parasitisme": "Bij parasitisme heeft de ene soort voordeel en de andere nadeel. Hier hebben ze allebei voordeel.",
             "concurrentie": "Concurrentie is wedijveren om hetzelfde voedsel of gebied, geen samenleven waar je allebei beter van wordt." } },
   { t: "mc", q: "Je hebt van de oogkleur twee keer informatie: op het ene chromosoom \"blauw\", op het andere \"bruin\". Hoe heten \"blauw\" en \"bruin\" hier?",
-    o: ["twee allelen van hetzelfde gen", "twee verschillende genen", "twee genotypes", "twee mutaties"], a: "twee allelen van hetzelfde gen",
+    o: ["twee allelen van hetzelfde gen", "twee verschillende genen", "twee genotypes, één van elke ouder", "twee mutaties van het oogkleurgen"], a: "twee allelen van hetzelfde gen",
     w: "Het gen gaat over één eigenschap (oogkleur); de informatie die erin staat (blauw of bruin) is het allel.",
     meer: "Gen = het onderwerp (oogkleur). Allel = wat er over dat onderwerp staat (blauw, bruin). Samen vormen ze een allelenpaar.",
     fout: { "twee verschillende genen": "Het is één gen (oogkleur) dat op beide chromosomen van het paar ligt. Alleen de informatie verschilt: dat zijn de allelen.",
-            "twee genotypes": "Je genotype is ál je erfelijke informatie samen. Je hebt er maar één.",
-            "twee mutaties": "Een mutatie is een plotselinge verandering van het genotype. Blauw en bruin zijn gewoon normale varianten." } },
+            "twee genotypes, één van elke ouder": "Je genotype is ál je erfelijke informatie samen. Je hebt er maar één.",
+            "twee mutaties van het oogkleurgen": "Een mutatie is een plotselinge verandering van het genotype. Blauw en bruin zijn gewoon normale varianten." } },
   { t: "mc", q: "Storm heeft een litteken op haar knie van een sliding. Hoort dat litteken bij haar genotype, haar fenotype of allebei?",
     o: ["alleen fenotype", "alleen genotype", "allebei", "geen van beide"], a: "alleen fenotype",
     w: "Fenotype = álle eigenschappen, ook de niet-erfelijke. Een litteken staat niet in je DNA.",
@@ -9108,12 +9108,12 @@ window.MIXVRAGEN = [
             "levensgemeenschap": "Een levensgemeenschap bestaat uit meerdere soorten. Hier gaat het alleen om snoeken.",
             "ecosysteem": "In een ecosysteem tel je ook de andere soorten én de levenloze factoren mee." } },
   { t: "mc", q: "Iemand verbrandt in de zomer flink op het strand. Waarom is dat ook voor later niet slim?",
-    o: ["uv-straling is een mutagene invloed: meer kans op mutaties in huidcellen", "zonlicht verandert je genotype in al je cellen tegelijk", "je kinderen krijgen dan een donkerdere huid", "uv-straling maakt je chromosomen korter"], a: "uv-straling is een mutagene invloed: meer kans op mutaties in huidcellen",
+    o: ["uv is een mutagene invloed: meer kans op mutaties", "zonlicht verandert je genotype in al je cellen tegelijk", "je kinderen krijgen daardoor later een donkerdere huid", "uv-straling maakt de chromosomen in je huidcellen korter"], a: "uv is een mutagene invloed: meer kans op mutaties",
     w: "uv-straling geeft een verhoogde kans op beschadiging van cellen, dus op mutaties. Daarom insmeren.",
     meer: "Een mutatie in een huidcel blijft in die huid; je geeft hem niet door aan je kinderen. Maar zo'n mutatie kan wel de celdeling ontregelen (tumor).",
     fout: { "zonlicht verandert je genotype in al je cellen tegelijk": "Uv raakt alleen de cellen waar het op schijnt (je huid), niet al je cellen.",
-            "je kinderen krijgen dan een donkerdere huid": "Bruin worden is fenotype en wordt niet doorgegeven. Een mutatie in een huidcel ook niet.",
-            "uv-straling maakt je chromosomen korter": "Uv kan basen in het DNA beschadigen (een mutatie), maar maakt chromosomen niet korter." } },
+            "je kinderen krijgen daardoor later een donkerdere huid": "Bruin worden is fenotype en wordt niet doorgegeven. Een mutatie in een huidcel ook niet.",
+            "uv-straling maakt de chromosomen in je huidcellen korter": "Uv kan basen in het DNA beschadigen (een mutatie), maar maakt chromosomen niet korter." } },
   { t: "mc", q: "Konijnen en hazen eten in hetzelfde weiland hetzelfde gras. Wat voor relatie is dat?",
     o: ["concurrentie", "samenwerking", "mutualisme", "parasitisme"], a: "concurrentie",
     w: "Twee soorten die hetzelfde voedsel willen, zijn elkaars concurrenten.",
@@ -9122,12 +9122,12 @@ window.MIXVRAGEN = [
             "mutualisme": "Bij mutualisme hebben beide soorten voordeel van elkaar. Hier pakken ze elkaars voedsel af.",
             "parasitisme": "Een parasiet leeft op of in een gastheer. Konijn en haas leven niet op elkaar." } },
   { t: "mc", q: "Een aardappelplant maakt knollen, en uit elke knol groeit een nieuwe plant. Hoe zit het met hun genotype?",
-    o: ["precies gelijk aan de moederplant", "elke nieuwe plant is anders", "de helft is gelijk", "dat is toeval"], a: "precies gelijk aan de moederplant",
+    o: ["precies gelijk aan de moederplant", "elke nieuwe plant is anders dan de moederplant", "de helft is gelijk aan de moederplant", "dat is bij elke knol weer toeval"], a: "precies gelijk aan de moederplant",
     w: "Knollen zijn ongeslachtelijke voortplanting: de nieuwe planten ontstaan door gewone celdeling, dus hetzelfde genotype.",
     meer: "Variatie in genotype krijg je alleen bij geslachtelijke voortplanting (eicel + zaadcel of stuifmeelkorrel).",
-    fout: { "elke nieuwe plant is anders": "Dat geldt voor geslachtelijke voortplanting. Bij knollen komt er geen geslachtscel aan te pas.",
-            "de helft is gelijk": "\"De helft van elk\" hoort bij geslachtelijke voortplanting (helft van vader, helft van moeder). Hier is er maar één ouder.",
-            "dat is toeval": "Toeval speelt bij meiose (welk chromosoom van een paar). Bij knollen is er geen meiose, alleen gewone celdeling." } },
+    fout: { "elke nieuwe plant is anders dan de moederplant": "Dat geldt voor geslachtelijke voortplanting. Bij knollen komt er geen geslachtscel aan te pas.",
+            "de helft is gelijk aan de moederplant": "\"De helft van elk\" hoort bij geslachtelijke voortplanting (helft van vader, helft van moeder). Hier is er maar één ouder.",
+            "dat is bij elke knol weer toeval": "Toeval speelt bij meiose (welk chromosoom van een paar). Bij knollen is er geen meiose, alleen gewone celdeling." } },
   { t: "mc", q: "Welke base hoort in een basenpaar altijd tegenover <b>C</b>?",
     o: ["G", "A", "T", "C"], a: "G",
     w: "C en G horen altijd bij elkaar; A en T ook.",
