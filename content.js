@@ -20,6 +20,8 @@ window.VAK = {
   masteryHits: 2,
   stapelGrootte: 6,
   proefPerOnderwerp: 1,
+  speelles: "speelles/",
+  speellesTekst: "16 lessen · speel het eerst, dan snap je het",
   tegels: ["leerstof", "begrippen", "proeftoets", "spiekblad"],
   tegelProef: { em: "📝", h: "Proeftoets", p: "Thema 5 en 6 door elkaar, zoals op de toets" },
   proefTitel: "Proeftoets T5 & T6",

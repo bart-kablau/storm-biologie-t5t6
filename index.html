@@ -430,7 +430,7 @@ sup{font-size:.72em;line-height:0}
    build klaar, dan herladen we één keer onder ?v=<build> — een URL die niet in de cache
    zit. Offline of bij een fout: niets doen, de app werkt gewoon door. ------------------ */
 (function(){
-  var BUILD = "ea3394e209";          // wordt bij deploy vervangen door de echte build-hash
+  var BUILD = "99385e3c64";          // wordt bij deploy vervangen door de echte build-hash
   if(BUILD === "dev") return; // lokaal/ongestempeld: niet checken
   try{
     var hier = new URL(location.href);
@@ -518,6 +518,13 @@ sup{font-size:.72em;line-height:0}
           <h3 id="th-begrippen">Woorden leren</h3>
           <p id="tile-woorden">in kleine stapeltjes · NL → Frans</p>
           <div class="mini-bar"><i id="bar-woorden"></i></div>
+        </div>
+      </button>
+      <button class="tile wide" id="tile-speelles-btn" style="display:none" onclick="location.href=VAK.speelles">
+        <span class="em">🎮</span>
+        <div style="flex:1">
+          <h3 id="th-speelles">Speelles</h3>
+          <p id="tile-speelles-p">snap het eerst door zelf te spelen</p>
         </div>
       </button>
       <button class="tile wide" id="tile-films-btn" style="display:none" onclick="show('films')">
@@ -730,11 +737,11 @@ sup{font-size:.72em;line-height:0}
 </div>
 <div id="confetti"></div>
 
-<script src="content.js?v=ea3394e209"></script>
-<script src="ezels.js?v=ea3394e209"></script>
-<script src="video/manifest.js?v=ea3394e209"></script>
+<script src="content.js?v=99385e3c64"></script>
+<script src="ezels.js?v=99385e3c64"></script>
+<script src="video/manifest.js?v=99385e3c64"></script>
 <!-- math.js alleen voor wiskunde-vakken (synchroon, geen 404 bij talen) -->
-<script>if(window.VAK&&window.VAK.wiskunde)document.write('<scr'+'ipt src="math.js?v=ea3394e209"><\/scr'+'ipt>');</script>
+<script>if(window.VAK&&window.VAK.wiskunde)document.write('<scr'+'ipt src="math.js?v=99385e3c64"><\/scr'+'ipt>');</script>
 <script>
 /* =====================================================================
    App-engine — adaptief leermodel
@@ -2233,6 +2240,9 @@ function initVak(){
     const alAlsTegel3 = VAK.tegels.includes("proeftoets");
     if((heeftMix && !alAlsTegel3) || VAK.tegels.includes("oefentoets")) to.style.display="flex";
   }
+  // Speelles-tegel: alleen als VAK.speelles een (relatief) pad is, bv. "speelles/"
+  const tsp=el("tile-speelles-btn");
+  if(tsp && typeof VAK.speelles==="string" && VAK.speelles){ tsp.style.display="flex"; if(VAK.speellesTekst) setText("tile-speelles-p", VAK.speellesTekst); }
   // Films-tegel: alleen als VAK.films een lijst is én minstens één film gerenderd is (id in window.VIDEOS)
   const tfi=el("tile-films-btn"), nf=beschikbareFilms().length;
   if(tfi && nf){ tfi.style.display="flex"; setText("tile-films-p", nf===1 ? "1 film · uitleg met beeld en geluid" : nf+" films · uitleg met beeld en geluid"); }
