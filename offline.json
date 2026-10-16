@@ -1,0 +1,117 @@
+{
+ "build": "49a9762711",
+ "appBytes": 1251980,
+ "app": [
+  "assets/font/fredoka-500.woff2",
+  "assets/font/fredoka-600.woff2",
+  "assets/font/fredoka-700.woff2",
+  "assets/font/nunito-400.woff2",
+  "assets/font/nunito-600.woff2",
+  "assets/font/nunito-700.woff2",
+  "assets/font/nunito-800.woff2",
+  "assets/icon-192.png",
+  "assets/icon-512.png",
+  "content.js",
+  "ezels.js",
+  "index.html",
+  "manifest.webmanifest",
+  "math.js",
+  "speelles/assets/font/fredoka-500.woff2",
+  "speelles/assets/font/fredoka-600.woff2",
+  "speelles/assets/font/fredoka-700.woff2",
+  "speelles/assets/font/nunito-400.woff2",
+  "speelles/assets/font/nunito-600.woff2",
+  "speelles/assets/font/nunito-700.woff2",
+  "speelles/assets/font/nunito-800.woff2",
+  "speelles/biologie/teken.js",
+  "speelles/biologie/vis.css",
+  "speelles/biologie/vis.js",
+  "speelles/engine.css",
+  "speelles/engine.js",
+  "speelles/index.html",
+  "speelles/lessen.js",
+  "video/manifest.js"
+ ],
+ "media": [
+  {
+   "pad": "video/accumulatie.mp4",
+   "hash": "d836d8b8c6a3",
+   "bytes": 19528504
+  },
+  {
+   "pad": "video/cel-dna.mp4",
+   "hash": "83c58b981323",
+   "bytes": 19174640
+  },
+  {
+   "pad": "video/celdeling.mp4",
+   "hash": "adef12163735",
+   "bytes": 12105870
+  },
+  {
+   "pad": "video/chromosomenparen.mp4",
+   "hash": "b7bf7900ebfa",
+   "bytes": 7632557
+  },
+  {
+   "pad": "video/dna-code.mp4",
+   "hash": "bc531b47bcba",
+   "bytes": 6822972
+  },
+  {
+   "pad": "video/evenwicht.mp4",
+   "hash": "6b2ec7704f2c",
+   "bytes": 14040754
+  },
+  {
+   "pad": "video/genotype-fenotype.mp4",
+   "hash": "647066f16f25",
+   "bytes": 12097235
+  },
+  {
+   "pad": "video/groepsgedrag.mp4",
+   "hash": "479fd014b78c",
+   "bytes": 12274546
+  },
+  {
+   "pad": "video/kringlopen.mp4",
+   "hash": "fd675dde7c68",
+   "bytes": 10967940
+  },
+  {
+   "pad": "video/meiose.mp4",
+   "hash": "6fb3f5d87bb0",
+   "bytes": 9635553
+  },
+  {
+   "pad": "video/mutatie.mp4",
+   "hash": "75f4267f5c5a",
+   "bytes": 10251323
+  },
+  {
+   "pad": "video/niveaus.mp4",
+   "hash": "b30ddee30abb",
+   "bytes": 16664020
+  },
+  {
+   "pad": "video/opruimploeg.mp4",
+   "hash": "29b39833d29b",
+   "bytes": 12524063
+  },
+  {
+   "pad": "video/symbiose.mp4",
+   "hash": "4f99ba9e8c13",
+   "bytes": 12178592
+  },
+  {
+   "pad": "video/tumor.mp4",
+   "hash": "a8a265c57183",
+   "bytes": 10052183
+  },
+  {
+   "pad": "video/voedselketen.mp4",
+   "hash": "f1451996ce7f",
+   "bytes": 19775481
+  }
+ ]
+}
