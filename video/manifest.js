@@ -1,1 +1,1 @@
-window.VIDEOS = ["dna-code","evenwicht","groepsgedrag","meiose","niveaus"];
+window.VIDEOS = ["accumulatie","cel-dna","celdeling","chromosomenparen","dna-code","evenwicht","genotype-fenotype","groepsgedrag","kringlopen","meiose","mutatie","niveaus","opruimploeg","symbiose","tumor","voedselketen"];
