@@ -448,14 +448,15 @@ sup{font-size:.72em;line-height:0}
    build klaar, dan herladen we één keer onder ?v=<build> — een URL die niet in de cache
    zit. Offline of bij een fout: niets doen, de app werkt gewoon door. ------------------ */
 (function(){
-  var BUILD = "76432d4c4a";          // wordt bij deploy vervangen door de echte build-hash
+  var BUILD = "8fe9fa18c6";          // wordt bij deploy vervangen door de echte build-hash
   if(BUILD === "dev") return; // lokaal/ongestempeld: niet checken
   try{
     var hier = new URL(location.href);
     if(hier.protocol === "file:") return;                       // offline kopie: niets doen
     /* Offline geïnstalleerd (zie offline-scherm): niet zelf herladen, de update-balk
        op home laat Storm kiezen wanneer ze vernieuwt. */
-    try{ if(localStorage.getItem("storm_offline:" + location.pathname.replace(/[^/]*$/, ""))) return; }catch(e){}
+    try{ var sc = (/^\/[^/]+\//.exec(location.pathname) || [location.pathname.replace(/[^/]*$/, "")])[0];
+         if(localStorage.getItem("storm_offline:" + sc)) return; }catch(e){}
     fetch("version.json?t=" + Date.now(), { cache: "no-store" })
       .then(function(r){ return r.ok ? r.json() : null; })
       .then(function(v){
@@ -793,11 +794,12 @@ sup{font-size:.72em;line-height:0}
 </div>
 <div id="confetti"></div>
 
-<script src="content.js?v=76432d4c4a"></script>
-<script src="ezels.js?v=76432d4c4a"></script>
-<script src="video/manifest.js?v=76432d4c4a"></script>
+<script src="content.js?v=8fe9fa18c6"></script>
+<script src="ezels.js?v=8fe9fa18c6"></script>
+<script src="video/manifest.js?v=8fe9fa18c6"></script>
+<script src="offline.js?v=8fe9fa18c6"></script>
 <!-- math.js alleen voor wiskunde-vakken (synchroon, geen 404 bij talen) -->
-<script>if(window.VAK&&window.VAK.wiskunde)document.write('<scr'+'ipt src="math.js?v=76432d4c4a"><\/scr'+'ipt>');</script>
+<script>if(window.VAK&&window.VAK.wiskunde)document.write('<scr'+'ipt src="math.js?v=8fe9fa18c6"><\/scr'+'ipt>');</script>
 <script>
 /* =====================================================================
    App-engine — adaptief leermodel
@@ -2310,36 +2312,18 @@ function initVak(){
     setText("tile-podcast-p", window.PODCASTS[0].tegelSub || (window.PODCASTS.length+" afleveringen · luister wanneer je wilt"));
   }
 }
-/* ---------- offline (PWA): zie tools/oefen-engine/offline.mjs en offline/sw.js ----------
-   De pagina downloadt (window.caches), de service worker serveert alleen.
-   offline.json (bij deploy gemaakt) = {build, appBytes, app:[pad], media:[{pad,hash,bytes}]}.
-   Staat (in cache <scope>|meta, item __state): {build, media:{pad:hash}, lijst:<offline.json>}.
-   - app-bestanden horen bij één build: nieuwe build = app opnieuw ophalen (klein);
-   - media alleen opnieuw als de hash verschilt, dus films blijven bij een app-update staan;
-   - de voortgang (localStorage) raken we nooit aan, ook niet bij "alles weggooien". */
-const OFF={ scope: location.pathname.replace(/[^/]*$/,""), remote:null, state:null, bezig:false };
-OFF.base = location.origin + OFF.scope;
-const offMetaNaam=()=>OFF.scope+"|meta", offMediaNaam=()=>OFF.scope+"|media", offAppNaam=b=>OFF.scope+"|app|"+b;
-const offKan=()=>("caches" in window) && ("serviceWorker" in navigator) && /^https?:$/.test(location.protocol);
-const offMB=b=>(b/1048576).toFixed(b<10485760?1:0)+" MB";
-async function offLees(){ try{ if(!(await caches.has(offMetaNaam()))) return null; const r=await (await caches.open(offMetaNaam())).match(OFF.base+"__state"); return r? await r.json() : null; }catch(e){ return null; } }
-async function offSchrijf(st){
-  OFF.state=st;
-  await (await caches.open(offMetaNaam())).put(OFF.base+"__state", new Response(JSON.stringify(st),{headers:{"Content-Type":"application/json"}}));
-  try{ if(st && st.build) localStorage.setItem("storm_offline:"+OFF.scope, st.build); else localStorage.removeItem("storm_offline:"+OFF.scope); }catch(e){}
-}
+/* ---------- offline (PWA): UI. De kern zit in offline.js (window.StormOffline) ----------
+   offline.js, sw.js, manifest.webmanifest en offline.json komen bij deploy uit
+   tools/oefen-engine/offline.mjs. Zonder offline.js (lokaal, of een app zonder offline-modus)
+   blijft alles hieronder inert. Zie tools/oefen-engine/CLAUDE.md, sectie Offline-modus. */
+const OFF={ app:null, remote:null, state:null, bezig:false };
+const offKan=()=>!!(window.StormOffline && StormOffline.kan());
+const offMB=b=>StormOffline.mb(b);
 function offLijst(){ return OFF.remote || (OFF.state && OFF.state.lijst) || null; }
-/* wat moet er nog binnenkomen om helemaal bij te zijn */
-function offPlan(){
-  const R=OFF.remote; if(!R) return null;
-  const st=OFF.state||{}, lok=st.media||{};
-  const app = st.build!==R.build;
-  const media = R.media.filter(m=>lok[m.pad]!==m.hash);
-  const nieuw = media.filter(m=>lok[m.pad]);   // had ze al, maar een oudere versie
-  return { app, media, nieuw, bytes:(app?R.appBytes:0)+media.reduce((s,m)=>s+m.bytes,0) };
-}
+function offPlan(){ return OFF.app.plan(OFF.remote, OFF.state); }
+function offId(pad){ return pad.replace(/^.*\//,"").replace(/\.[^.]+$/,""); }
 function offTitel(pad){
-  const id=pad.replace(/^.*\//,"").replace(/\.[^.]+$/,"");
+  const id=offId(pad);
   const f=(Array.isArray(VAK.films)?VAK.films:[]).find(x=>x&&x.id===id);
   if(f) return { em:f.emoji||"🎬", t:f.titel||id };
   const p=(window.PODCASTS||[]).find(x=>x && (x.src||"").indexOf(pad.replace(/^.*\//,""))>=0);
@@ -2351,14 +2335,15 @@ function offStandalone(){ return navigator.standalone===true || matchMedia("(dis
 
 async function offInit(){
   if(!offKan()) return;
-  OFF.state = await offLees();
-  try{ const r=await fetch("offline.json?t="+Date.now(),{cache:"no-store"}); OFF.remote = r.ok ? await r.json() : null; }catch(e){ OFF.remote=null; }
+  OFF.app = StormOffline.app();
+  OFF.state = await OFF.app.lees();
+  OFF.remote = await OFF.app.haalLijst();
   if(!OFF.remote && !OFF.state) return;                 // deze app heeft (nog) geen offline-modus
-  try{ await navigator.serviceWorker.register("sw.js"); }catch(e){}
+  await StormOffline.registreer();
   offHome();
 }
 function offHome(){
-  const t=el("tile-offline-btn"); if(!t || !offKan() || (!OFF.remote && !OFF.state)) return;
+  const t=el("tile-offline-btn"); if(!t || !OFF.app || (!OFF.remote && !OFF.state)) return;
   t.style.display="flex";
   const st=OFF.state, p=offPlan(), b=el("off-update");
   let sub="download alles voor in het vliegtuig";
@@ -2373,8 +2358,8 @@ function offHome(){
   setText("tile-offline-p", sub);
 }
 async function offRender(){
-  if(!offKan()){ setText("off-status","Offline gebruiken kan in deze browser niet."); return; }
-  if(!OFF.bezig) OFF.state = await offLees();
+  if(!OFF.app){ setText("off-status","Offline gebruiken kan hier niet."); return; }
+  if(!OFF.bezig) OFF.state = await OFF.app.lees();
   const st=OFF.state||{}, lok=st.media||{}, L=offLijst(), p=offPlan();
   el("off-ios").style.display = offIOS() && !offStandalone() ? "block" : "none";
   const heeftApp = !!st.build;
@@ -2401,12 +2386,12 @@ async function offRender(){
     box.appendChild(r);
   };
   rij("📱","App, oefenen en speelles", offMB(L.appBytes||0), heeftApp ? (OFF.remote && OFF.remote.build!==st.build ? "🔄 nieuw" : "✓") : "⬇", null);
-  const volg=pad=>{ const id=pad.replace(/^.*\//,"").replace(/\.[^.]+$/,""); const i=(Array.isArray(VAK.films)?VAK.films:[]).findIndex(x=>x&&x.id===id); return i<0?999:i; };
+  const volg=pad=>{ const i=(Array.isArray(VAK.films)?VAK.films:[]).findIndex(x=>x&&x.id===offId(pad)); return i<0?999:i; };
   L.media.slice().sort((a,b)=>volg(a.pad)-volg(b.pad)).forEach(m=>{
     const tt=offTitel(m.pad), h=lok[m.pad];
     rij(tt.em, tt.t, offMB(m.bytes), !h ? "⬇" : (h===m.hash ? "✓" : "🔄 nieuw"), h ? ()=>offWeg(m.pad) : null);
   });
-  try{ const e=await navigator.storage.estimate(); setText("off-opslag","Opslag van deze app: "+offMB(e.usage||0)+(e.quota?" (ruimte: ± "+(e.quota/1073741824).toFixed(1)+" GB)":"")); }catch(e){}
+  try{ const e=await navigator.storage.estimate(); setText("off-opslag","Opslag van alle Storm-apps samen: "+offMB(e.usage||0)+(e.quota?" (ruimte: ± "+(e.quota/1073741824).toFixed(1)+" GB)":"")); }catch(e){}
 }
 function offVoortgang(klaar, totaal, tekst){
   el("off-bar").style.display="block";
@@ -2414,118 +2399,51 @@ function offVoortgang(klaar, totaal, tekst){
   setText("off-voortgang", tekst+" · "+offMB(klaar)+" van "+offMB(totaal));
 }
 async function offSync(alleenApp){
-  if(OFF.bezig) return;
+  if(OFF.bezig || !OFF.app) return;
   if(!OFF.remote){ toast("Geen internet: downloaden kan alleen online."); return; }
   OFF.bezig=true; el("off-download").disabled=true; setText("off-status","⬇ Downloaden… laat dit scherm open");
-  try{ if(navigator.storage && navigator.storage.persist) await navigator.storage.persist(); }catch(e){}
-  const R=OFF.remote, oud=OFF.state||{};
-  const st={ build:oud.build||null, media:Object.assign({},oud.media||{}), lijst:R };
-  const p=offPlan(); if(alleenApp===true){ p.bytes-=p.media.reduce((s,m)=>s+m.bytes,0); p.media=[]; }
-  let klaar=0, appVernieuwd=false;
+  let uit=null;
   try{
-    if(p.app){
-      const c=await caches.open(offAppNaam(R.build));
-      const rij=R.app.slice();
-      const werker=async()=>{ while(rij.length){
-        const f=rij.shift();
-        const r=await fetch(OFF.base+f+"?v="+R.build+"&dl=1",{cache:"no-store"});
-        if(!r.ok) throw new Error(f+" gaf "+r.status);
-        const blob=await r.blob();
-        await c.put(OFF.base+f, new Response(blob,{headers:{"Content-Type":r.headers.get("Content-Type")||"application/octet-stream"}}));
-        klaar+=blob.size; offVoortgang(klaar,p.bytes,"App");
-      } };
-      await Promise.all([werker(),werker(),werker(),werker()]);
-      st.build=R.build; await offSchrijf(st); appVernieuwd=true;
-      for(const k of await caches.keys()) if(k.indexOf(OFF.scope+"|app|")===0 && k!==offAppNaam(R.build)) await caches.delete(k);
-    }
-    const mc=await caches.open(offMediaNaam());
-    for(let i=0;i<p.media.length;i++){
-      const m=p.media[i], tt=offTitel(m.pad), label="Film "+(i+1)+" van "+p.media.length+": "+tt.t;
-      const r=await fetch(OFF.base+m.pad+"?h="+m.hash+"&dl=1",{cache:"no-store"});
-      if(!r.ok) throw new Error(m.pad+" gaf "+r.status);
-      const type=r.headers.get("Content-Type")||(/\.mp4$/.test(m.pad)?"video/mp4":"audio/mp4");
-      const lezer=r.body.getReader(), stukken=[]; let n=0;
-      for(;;){ const {done,value}=await lezer.read(); if(done) break; stukken.push(value); n+=value.length; offVoortgang(klaar+n,p.bytes,label); }
-      const blob=new Blob(stukken,{type});
-      if(blob.size!==m.bytes) throw new Error(tt.t+" kwam niet helemaal binnen ("+offMB(blob.size)+" van "+offMB(m.bytes)+")");
-      await mc.put(OFF.base+m.pad, new Response(blob,{headers:{"Content-Type":type,"Content-Length":String(blob.size)}}));
-      klaar+=m.bytes; st.media[m.pad]=m.hash; await offSchrijf(st);
-    }
-    /* media die niet meer in de app zitten: opruimen */
-    for(const pad of Object.keys(st.media)) if(!R.media.some(m=>m.pad===pad)){ await mc.delete(OFF.base+pad); delete st.media[pad]; }
-    await offSchrijf(st);
-    setText("off-voortgang","");
-    el("off-bar").style.display="none";
+    uit = await OFF.app.sync(OFF.remote, { alleenApp: alleenApp===true, voortgang: offVoortgang, titel: p=>offTitel(p).t });
+    OFF.state = await OFF.app.lees();
+    setText("off-voortgang",""); el("off-bar").style.display="none";
     toast("Klaar! Alles staat offline ✈️");
-    if(appVernieuwd && oud.build && oud.build!==R.build){
-      const u=new URL(location.href); u.searchParams.set("v",R.build); location.replace(u.toString()); return;
-    }
   }catch(e){
+    OFF.state = await OFF.app.lees();
     setText("off-voortgang","⚠️ Gestopt: "+(e && e.message || e)+". Wat al binnen was blijft staan; probeer het nog eens.");
   }finally{
     OFF.bezig=false; el("off-download").disabled=false;
+  }
+  if(uit && uit.appVernieuwd && uit.oudBuild && uit.oudBuild!==OFF.remote.build){
+    const u=new URL(location.href); u.searchParams.set("v",OFF.remote.build); location.replace(u.toString()); return;
   }
   offRender(); offHome();
 }
 /* Klaar voor vertrek: ligt alles er compleet, en speelt elke film via de service worker? */
 async function offCheck(){
-  const uit=el("off-check-uit"), st=await offLees(), L=st && st.lijst;
-  if(!L || !st.build){ uit.textContent="Nog niets offline."; return; }
-  uit.innerHTML="⏳ Controleren…";
-  const fout=[];
-  const ac=await caches.open(offAppNaam(st.build));
-  let appOk=0; for(const f of L.app){ if(await ac.match(OFF.base+f)) appOk++; else fout.push("App-bestand ontbreekt: "+f); }
-  const mc=await caches.open(offMediaNaam());
-  const reg = navigator.serviceWorker && navigator.serviceWorker.controller;
-  if(!reg) fout.push("De offline-hulp is nog niet actief. Sluit de app helemaal en open hem opnieuw, controleer dan nog eens.");
-  let mOk=0;
-  for(const m of L.media){
-    const tt=offTitel(m.pad);
-    if(st.media[m.pad]!==m.hash){ fout.push(tt.t+": niet (of een oude versie) offline"); continue; }
-    const r=await mc.match(OFF.base+m.pad); const sz=r ? (await r.blob()).size : 0;
-    if(sz!==m.bytes){ fout.push(tt.t+": onvolledig"); continue; }
-    if(reg){
-      const ok=await new Promise(res=>{
-        const v=document.createElement(/\.mp4$/.test(m.pad)?"video":"audio"); v.muted=true; v.preload="metadata";
-        const klaar=x=>{ clearTimeout(t); v.removeAttribute("src"); try{ v.load(); }catch(e){} res(x); };
-        const t=setTimeout(()=>klaar(false),10000);
-        v.onloadedmetadata=()=>klaar(v.duration>0); v.onerror=()=>klaar(false);
-        v.src=OFF.base+m.pad;
-      });
-      if(!ok){ fout.push(tt.t+": speelt niet af"); continue; }
-    }
-    mOk++;
-  }
-  uit.innerHTML = (fout.length ? "" : "<b>✅ Klaar voor vertrek! ✈️</b><br>") +
-    "App: "+appOk+" van "+L.app.length+" bestanden · Films: "+mOk+" van "+L.media.length+" speelbaar" +
-    (fout.length ? '<br><span style="color:var(--brand-ink)">'+fout.slice(0,8).map(esc).join("<br>")+(fout.length>8?"<br>…en nog "+(fout.length-8):"")+"</span>" : "");
+  const uit=el("off-check-uit"); uit.innerHTML="⏳ Controleren…";
+  const r=await OFF.app.check({ titel: p=>offTitel(p).t });
+  uit.innerHTML = (r.fout.length ? "" : "<b>✅ Klaar voor vertrek! ✈️</b><br>") +
+    "App: "+r.appOk+" van "+r.appN+" bestanden · Films: "+r.mediaOk+" van "+r.mediaN+" speelbaar" +
+    (r.fout.length ? '<br><span style="color:var(--brand-ink)">'+r.fout.slice(0,8).map(esc).join("<br>")+(r.fout.length>8?"<br>…en nog "+(r.fout.length-8):"")+"</span>" : "");
 }
 async function offWeg(pad){
-  const st=await offLees(); if(!st) return;
-  await (await caches.open(offMediaNaam())).delete(OFF.base+pad);
-  delete st.media[pad]; await offSchrijf(st);
+  await OFF.app.weg(pad); OFF.state=await OFF.app.lees();
   toast("Weggegooid: "+offTitel(pad).t); offRender(); offHome();
 }
+/* Hard vernieuwen: app-bestanden weg en vers ophalen, films blijven staan (ook een weggegooide film komt niet terug). */
 async function offHard(){
   if(!OFF.remote){ toast("Hard vernieuwen kan alleen met internet."); return; }
   if(OFF.bezig) return;
-  for(const k of await caches.keys()) if(k.indexOf(OFF.scope+"|app|")===0) await caches.delete(k);
-  const st=(await offLees())||{media:{}}; st.build=null; await offSchrijf(st);
-  try{ for(const r of await navigator.serviceWorker.getRegistrations()) if(new URL(r.scope).pathname===OFF.scope) await r.unregister(); }catch(e){}
-  try{ await navigator.serviceWorker.register("sw.js"); }catch(e){}
-  const u=new URL(location.href); u.searchParams.set("v", OFF.remote.build+"-"+Date.now().toString(36));
-  /* app opnieuw ophalen (de films staan er nog, die slaat offSync over) en dan herladen */
-  OFF.state=st; await offSync(true);
-  location.replace(u.toString());
+  await OFF.app.wisApp(); OFF.state=await OFF.app.lees();
+  await offSync(true);
+  const u=new URL(location.href); u.searchParams.set("v", OFF.remote.build+"-"+Date.now().toString(36)); location.replace(u.toString());
 }
 async function offAllesWeg(){
   if(!confirm("Alles van deze app van deze telefoon weggooien? De films moet je daarna opnieuw downloaden. Je sterren en voortgang blijven bewaard.")) return;
-  for(const k of await caches.keys()) if(k.indexOf(OFF.scope+"|")===0) await caches.delete(k);
-  try{ localStorage.removeItem("storm_offline:"+OFF.scope); }catch(e){}
-  try{ for(const r of await navigator.serviceWorker.getRegistrations()) if(new URL(r.scope).pathname===OFF.scope) await r.unregister(); }catch(e){}
+  await OFF.app.allesWeg();
   OFF.state=null; el("off-update").style.display="none";
   toast("Weggegooid. Alles komt nu weer van internet.");
-  if(OFF.remote){ try{ await navigator.serviceWorker.register("sw.js"); }catch(e){} }
   offRender(); offHome();
 }
 

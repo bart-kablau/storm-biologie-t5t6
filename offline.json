@@ -1,6 +1,6 @@
 {
- "build": "76432d4c4a",
- "appBytes": 1251982,
+ "build": "521f104e79",
+ "appBytes": 1258547,
  "app": [
   "assets/font/fredoka-500.woff2",
   "assets/font/fredoka-600.woff2",
@@ -16,6 +16,7 @@
   "index.html",
   "manifest.webmanifest",
   "math.js",
+  "offline.js",
   "speelles/assets/font/fredoka-500.woff2",
   "speelles/assets/font/fredoka-600.woff2",
   "speelles/assets/font/fredoka-700.woff2",

@@ -1,12 +1,17 @@
 /* =====================================================================
-   sw.js: service worker voor de offline-modus van een oefen-app.
-   Wordt bij deploy naar de app-root gekopieerd (tools/oefen-engine/offline.mjs).
+   sw.js: service worker voor de offline-modus van de Storm-apps.
 
-   De SW downloadt zelf niets: dat doet de pagina (window.caches, zie het
-   offline-scherm in index.html). De SW serveert alleen wat er al ligt.
+   Staat op twee plekken, met dezelfde code:
+   - in de hoofdmap van de site (repo bart-kablau.github.io, scope "/"): bedient
+     de hub en alle apps tegelijk, zodat de hub als één app op het beginscherm kan;
+   - in elke offline-app zelf (scope "/<app>/"): reserve als de hoofdmap ontbreekt.
+   Welke app een verzoek hoort, volgt uit het eerste pad-deel: /storm-x/... -> "/storm-x/".
 
-   Caches (per app, want alle apps delen de origin bart-kablau.github.io):
-     <scope>|meta        één item "__state": {build, media:{"video/x.mp4":"<hash>"}}
+   De SW downloadt zelf niets: dat doet de pagina (offline.js). De SW serveert
+   alleen wat er al ligt.
+
+   Caches per app (alle apps delen de origin bart-kablau.github.io):
+     <scope>|meta        één item "__state": {build, media:{"video/x.mp4":"<hash>"}, lijst}
      <scope>|app|<build> html/js/css/fonts/speelles van één build
      <scope>|media       mp4/m4a, sleutel = url zonder query; versie staat in meta
 
@@ -16,20 +21,22 @@
    - media in de cache: uit de cache, met Range-antwoorden (Safari speelt een
      video alleen af met 206-antwoorden).
    - app-bestanden: uit de cache van state.build als die er is, anders netwerk.
-   - niets offline: de SW bemoeit zich nergens mee (gedrag zoals zonder SW).
+   - niets offline voor die app: netwerk (gedrag zoals zonder SW).
    ===================================================================== */
-const SCOPE = new URL(self.registration.scope).pathname;
-const META = SCOPE + '|meta';
-const MEDIA = SCOPE + '|media';
-const APP = b => SCOPE + '|app|' + b;
 const NOOIT = ['version.json', 'offline.json', 'sw.js'];
 
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 
-async function staat() {
+function appScope(pad) {
+  const m = /^\/[^/]+\//.exec(pad);
+  return m ? m[0] : null;
+}
+
+async function staat(scope) {
   try {
-    const r = await (await caches.open(META)).match('__state');
+    if (!(await caches.has(scope + '|meta'))) return null;
+    const r = await (await caches.open(scope + '|meta')).match(location.origin + scope + '__state');
     return r ? await r.json() : null;
   } catch (e) { return null; }
 }
@@ -62,19 +69,18 @@ async function mediaAntwoord(req, resp) {
   });
 }
 
-async function beantwoord(req) {
+async function beantwoord(req, scope) {
   const key = sleutel(req.url);
-  const pad = new URL(key).pathname;
-  const st = await staat();
+  const st = await staat(scope);
   if (st && st.media) {
-    const rel = pad.slice(SCOPE.length);
+    const rel = new URL(key).pathname.slice(scope.length);
     if (st.media[rel]) {
-      const r = await (await caches.open(MEDIA)).match(key);
+      const r = await (await caches.open(scope + '|media')).match(key);
       if (r) return mediaAntwoord(req, r);
     }
   }
   if (st && st.build) {
-    const r = await (await caches.open(APP(st.build))).match(key);
+    const r = await (await caches.open(scope + '|app|' + st.build)).match(key);
     if (r) return r;
   }
   return fetch(req);
@@ -84,8 +90,10 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const u = new URL(req.url);
-  if (u.origin !== location.origin || !u.pathname.startsWith(SCOPE)) return;
-  if (NOOIT.includes(u.pathname.slice(SCOPE.length))) return;
-  if (u.searchParams.has('dl')) return;   // de pagina downloadt een nieuwe versie: altijd netwerk
-  e.respondWith(beantwoord(req));
+  if (u.origin !== location.origin) return;
+  const scope = appScope(u.pathname);
+  if (!scope) return;                                  // bestanden in de hoofdmap zelf
+  if (NOOIT.includes(u.pathname.slice(scope.length))) return;
+  if (u.searchParams.has('dl')) return;                // de pagina downloadt een nieuwe versie: altijd netwerk
+  e.respondWith(beantwoord(req, scope));
 });
